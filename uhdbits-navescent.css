@@ -2167,7 +2167,8 @@ body {
           display: table-row;
           font-size: 12px;
           font-weight: 400;
-          text-shadow: 0px 1px 1px #000; }
+          text-shadow: 0px 1px 1px #000;
+          color: #fff; }
         #header #userinfo #userinfo_stats li span.stat {
           font-size: 11px !important;
           font-weight: 400;
@@ -2605,5 +2606,39 @@ body {
   #content .thin .linkbox a.brackets {
     color: #e4d18e !important;
     text-shadow: 0px 1px 1px #000; }
+  #content .thin .search_form .box {
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.5); }
+    #content .thin .search_form .box .pad table {
+      font-size: 13px; }
+      #content .thin .search_form .box .pad table tbody tr td {
+        padding: 5px 3px !important;
+        vertical-align: middle !important; }
+      #content .thin .search_form .box .pad table tbody tr td.label {
+        text-align: left;
+        width: 150px;
+        font-weight: 700; }
+    #content .thin .search_form .box .pad table.cat_list:first-child {
+      text-align: left;
+      width: 100%; }
+      #content .thin .search_form .box .pad table.cat_list:first-child tbody tr td {
+        width: 100px;
+        padding-top: 20px; }
+
+#torrents #cluetip .cluetip-outer {
+  border: 1px solid #777 !important; }
+  #torrents #cluetip .cluetip-outer .cluetip-inner {
+    background: #2f2f2f !important;
+    color: #fff !important; }
+    #torrents #cluetip .cluetip-outer .cluetip-inner .imdb_block2 div:first-child {
+      margin-left: 4px;
+      margin-right: 11px;
+      margin-bottom: 4px; }
+      #torrents #cluetip .cluetip-outer .cluetip-inner .imdb_block2 div:first-child img {
+        border: none;
+        background: none; }
+    #torrents #cluetip .cluetip-outer .cluetip-inner .imdb_block2 div:nth-child(2) {
+      padding-right: 15px; }
+      #torrents #cluetip .cluetip-outer .cluetip-inner .imdb_block2 div:nth-child(2) dl {
+        color: #fff; }
 
 /*# sourceMappingURL=style.css.map */
