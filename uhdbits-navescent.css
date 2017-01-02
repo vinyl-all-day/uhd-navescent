@@ -2446,7 +2446,7 @@ body {
         top: 1px;
         margin-left: 3px; }
         #content .thin .torrent_table .group .big_info .group_info > div .imdbRatingStyle1 .imdbrating .ofTen {
-          color: #909090;
+          color: #a5a5a5 !important;
           font-size: 10px; }
       #content .thin .torrent_table .group .big_info .group_info > div .imdbRatingStyle1 .star {
         display: none; }
