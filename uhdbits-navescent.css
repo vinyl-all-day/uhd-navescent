@@ -2444,11 +2444,12 @@ body {
         #content .thin .forum_post tbody .body > div a {
           color: #6db8f9; }
   #content .thin .forum_list h3 {
-    color: #e4d18e; }
+    color: #e4d18e;
+    margin-top: 20px !important; }
   #content .thin .forum_list .forum_index {
     box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.5); }
     #content .thin .forum_list .forum_index tbody .colhead {
-      background: #38678f; }
+      background: #38678f !important; }
     #content .thin .forum_list .forum_index tbody .rowb td:nth-child(2) h4 a, #content .thin .forum_list .forum_index tbody .rowa td:nth-child(2) h4 a {
       color: #fff !important; }
     #content .thin .forum_list .forum_index tbody .rowb td:nth-child(3) .last_topic a, #content .thin .forum_list .forum_index tbody .rowa td:nth-child(3) .last_topic a {
@@ -2458,6 +2459,20 @@ body {
     #content .thin .forum_list .forum_index tbody .rowb {
       background: #272727 none repeat scroll 0 0; }
     #content .thin .forum_list .forum_index tbody .rowa {
+      background: #2f2f2f none repeat scroll 0 0; }
+  #content .thin .forum_index {
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.5); }
+    #content .thin .forum_index tbody .colhead {
+      background: #38678f !important; }
+    #content .thin .forum_index tbody .rowb td:nth-child(2) h4 a, #content .thin .forum_index tbody .rowa td:nth-child(2) h4 a {
+      color: #fff !important; }
+    #content .thin .forum_index tbody .rowb td:nth-child(3) .last_topic a, #content .thin .forum_index tbody .rowa td:nth-child(3) .last_topic a {
+      color: #6db8f9; }
+    #content .thin .forum_index tbody td {
+      background: none; }
+    #content .thin .forum_index tbody .rowb {
+      background: #272727 none repeat scroll 0 0; }
+    #content .thin .forum_index tbody .rowa {
       background: #2f2f2f none repeat scroll 0 0; }
   #content .thin #reply_box textarea#quickpost {
     font-family: LatoWeb; }
