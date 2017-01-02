@@ -2427,6 +2427,8 @@ body {
     #content .thin .box .pad .layout tbody tr {
       background: none;
       border: none; }
+  #content .thin .torrent_table tbody .colhead {
+    background: #38678f; }
   #content .thin .torrent_table .group {
     background: #38393b;
     background: -moz-linear-gradient(top, #38393b 0%, #2e3645 100%);
@@ -2438,14 +2440,23 @@ body {
     #content .thin .torrent_table .group .big_info .group_info > div .imdbRatingStyle1 {
       background: none !important;
       border: none !important; }
-      #content .thin .torrent_table .group .big_info .group_info > div .imdbRatingStyle1 .imdbrating .ofTen {
-        font-size: 10px; }
+      #content .thin .torrent_table .group .big_info .group_info > div .imdbRatingStyle1 .imdbrating {
+        font-size: 12px;
+        position: relative;
+        top: 1px;
+        margin-left: 3px; }
+        #content .thin .torrent_table .group .big_info .group_info > div .imdbRatingStyle1 .imdbrating .ofTen {
+          color: #909090;
+          font-size: 10px; }
       #content .thin .torrent_table .group .big_info .group_info > div .imdbRatingStyle1 .star {
         display: none; }
     #content .thin .torrent_table .group .big_info .group_info > div .imdbRatingPlugin {
       color: #fff;
       border-radius: 0;
       font-family: LatoWeb; }
+    #content .thin .torrent_table .group .big_info .group_info > div > a {
+      position: relative;
+      top: 3px; }
   #content .thin .torrent_table .group_torrent td:nth-child(3) a {
     color: #e4d18e !important; }
   #content .thin .torrent_table .group_torrent td:nth-child(3) span a {
