@@ -2444,9 +2444,9 @@ body {
     color: #e4d18e; }
   #content .thin .forum_list .forum_index tbody .colhead {
     background: #38678f; }
-  #content .thin .forum_list .forum_index tbody .rowb td:nth-child(2) h4 a {
+  #content .thin .forum_list .forum_index tbody .rowb td:nth-child(2) h4 a, #content .thin .forum_list .forum_index tbody .rowa td:nth-child(2) h4 a {
     color: #fff !important; }
-  #content .thin .forum_list .forum_index tbody .rowb td:nth-child(3) .last_topic a {
+  #content .thin .forum_list .forum_index tbody .rowb td:nth-child(3) .last_topic a, #content .thin .forum_list .forum_index tbody .rowa td:nth-child(3) .last_topic a {
     color: #6db8f9; }
 
 /*# sourceMappingURL=style.css.map */
