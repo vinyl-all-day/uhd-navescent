@@ -2436,5 +2436,7 @@ body {
       background: -webkit-linear-gradient(top, #38393b 0%, #2e3645 100%);
       background: linear-gradient(to bottom, #38393b 0%, #2e3645 100%);
       width: 940px; }
+      #content .thin .forum_post tbody .body > div {
+        max-width: 930px; }
 
 /*# sourceMappingURL=style.css.map */
