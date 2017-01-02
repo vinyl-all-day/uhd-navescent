@@ -2453,6 +2453,8 @@ body {
         padding: 10px; }
         #content .thin .main_column .box .body .imdb_block .imgbox {
           margin-right: 20px !important; }
+          #content .thin .main_column .box .body .imdb_block .imgbox img {
+            max-width: 100% !important; }
         #content .thin .main_column .box .body .imdb_block div > dl {
           padding-bottom: 10px; }
           #content .thin .main_column .box .body .imdb_block div > dl .imovie_title {
@@ -2502,6 +2504,8 @@ body {
           max-width: 930px; }
         #content .thin .forum_post tbody .body > div a {
           color: #6db8f9; }
+        #content .thin .forum_post tbody .body > div blockquote img {
+          max-width: 880px; }
   #content .thin .forum_list h3 {
     color: #e4d18e;
     margin-top: 20px !important; }
