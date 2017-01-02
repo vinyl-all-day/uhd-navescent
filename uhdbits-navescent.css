@@ -2437,9 +2437,12 @@ body {
       background: linear-gradient(to bottom, #38393b 0%, #2e3645 100%);
       width: 940px; }
       #content .thin .forum_post tbody .body > div {
-        max-width: 930px; }
+        max-width: 930px;
+        font-size: 13px; }
         #content .thin .forum_post tbody .body > div img {
           max-width: 930px; }
+        #content .thin .forum_post tbody .body > div a {
+          color: #6db8f9; }
   #content .thin .forum_list h3 {
     color: #e4d18e; }
   #content .thin .forum_list .forum_index tbody .colhead {
