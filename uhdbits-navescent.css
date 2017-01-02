@@ -2191,9 +2191,6 @@ body {
     background: -moz-linear-gradient(left, #1b6372 0%, #295980 50%, #5f3e7e 100%);
     background: -webkit-linear-gradient(left, #1b6372 0%, #295980 50%, #5f3e7e 100%);
     background: linear-gradient(to right, #1b6372 0%, #295980 50%, #5f3e7e 100%); }
-    #menu ul li:hover {
-      background: rgba(255, 255, 255, 0.4);
-      color: #444 !important; }
     #menu ul li:nth-child(1) a {
       background: rgba(255,255,255,0.04);
       text-shadow: 0px 1px 1px #000;
@@ -2201,6 +2198,9 @@ body {
       -webkit-transition: background .5s ease-out;
       -moz-transition: background .5s ease-out;
       -o-transition: background .5s ease-out; }
+    #menu ul:hover {
+      background: rgba(255, 255, 255, 0.4);
+      color: #444 !important; }
     #menu ul li:nth-child(2) a {
       background: rgba(255,255,255,0.07);
       text-shadow: 0px 1px 1px #000;
@@ -2208,6 +2208,9 @@ body {
       -webkit-transition: background .5s ease-out;
       -moz-transition: background .5s ease-out;
       -o-transition: background .5s ease-out; }
+    #menu ul:hover {
+      background: rgba(255, 255, 255, 0.4);
+      color: #444 !important; }
     #menu ul li:nth-child(3) a {
       background: rgba(255,255,255,0.11);
       text-shadow: 0px 1px 1px #000;
@@ -2215,6 +2218,9 @@ body {
       -webkit-transition: background .5s ease-out;
       -moz-transition: background .5s ease-out;
       -o-transition: background .5s ease-out; }
+    #menu ul:hover {
+      background: rgba(255, 255, 255, 0.4);
+      color: #444 !important; }
     #menu ul li:nth-child(4) a {
       background: rgba(255,255,255,0.15);
       text-shadow: 0px 1px 1px #000;
@@ -2222,6 +2228,9 @@ body {
       -webkit-transition: background .5s ease-out;
       -moz-transition: background .5s ease-out;
       -o-transition: background .5s ease-out; }
+    #menu ul:hover {
+      background: rgba(255, 255, 255, 0.4);
+      color: #444 !important; }
     #menu ul li:nth-child(5) a {
       background: rgba(255,255,255,0.18);
       text-shadow: 0px 1px 1px #000;
@@ -2229,6 +2238,9 @@ body {
       -webkit-transition: background .5s ease-out;
       -moz-transition: background .5s ease-out;
       -o-transition: background .5s ease-out; }
+    #menu ul:hover {
+      background: rgba(255, 255, 255, 0.4);
+      color: #444 !important; }
     #menu ul li:nth-child(6) a {
       background: rgba(255,255,255,0.22);
       text-shadow: 0px 1px 1px #000;
@@ -2236,6 +2248,9 @@ body {
       -webkit-transition: background .5s ease-out;
       -moz-transition: background .5s ease-out;
       -o-transition: background .5s ease-out; }
+    #menu ul:hover {
+      background: rgba(255, 255, 255, 0.4);
+      color: #444 !important; }
     #menu ul li:nth-child(7) a {
       background: rgba(255,255,255,0.25);
       text-shadow: 0px 1px 1px #000;
@@ -2243,6 +2258,9 @@ body {
       -webkit-transition: background .5s ease-out;
       -moz-transition: background .5s ease-out;
       -o-transition: background .5s ease-out; }
+    #menu ul:hover {
+      background: rgba(255, 255, 255, 0.4);
+      color: #444 !important; }
     #menu ul li:nth-child(8) a {
       background: rgba(255,255,255,0.29);
       text-shadow: 0px 1px 1px #000;
@@ -2250,6 +2268,9 @@ body {
       -webkit-transition: background .5s ease-out;
       -moz-transition: background .5s ease-out;
       -o-transition: background .5s ease-out; }
+    #menu ul:hover {
+      background: rgba(255, 255, 255, 0.4);
+      color: #444 !important; }
     #menu ul li:nth-child(9) a {
       background: rgba(255,255,255,0.33);
       text-shadow: 0px 1px 1px #000;
@@ -2257,6 +2278,9 @@ body {
       -webkit-transition: background .5s ease-out;
       -moz-transition: background .5s ease-out;
       -o-transition: background .5s ease-out; }
+    #menu ul:hover {
+      background: rgba(255, 255, 255, 0.4);
+      color: #444 !important; }
     #menu ul li:nth-child(10) a {
       background: rgba(255,255,255,0.36);
       text-shadow: 0px 1px 1px #000;
@@ -2264,6 +2288,9 @@ body {
       -webkit-transition: background .5s ease-out;
       -moz-transition: background .5s ease-out;
       -o-transition: background .5s ease-out; }
+    #menu ul:hover {
+      background: rgba(255, 255, 255, 0.4);
+      color: #444 !important; }
     #menu ul li:nth-child(11) a {
       background: rgba(255,255,255,0.4);
       text-shadow: 0px 1px 1px #000;
@@ -2271,6 +2298,9 @@ body {
       -webkit-transition: background .5s ease-out;
       -moz-transition: background .5s ease-out;
       -o-transition: background .5s ease-out; }
+    #menu ul:hover {
+      background: rgba(255, 255, 255, 0.4);
+      color: #444 !important; }
 
 #searchbars {
   padding: 13px 0;
@@ -2482,5 +2512,8 @@ body {
       background: #2f2f2f none repeat scroll 0 0; }
   #content .thin #reply_box textarea#quickpost {
     font-family: LatoWeb; }
+  #content .thin .linkbox a.brackets {
+    color: #e4d18e !important;
+    text-shadow: 0px 1px 1px #000; }
 
 /*# sourceMappingURL=style.css.map */
