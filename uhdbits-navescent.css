@@ -2435,6 +2435,17 @@ body {
     #content .thin .torrent_table .group .big_info .group_info a {
       font-weight: 700;
       font-size: 13px; }
+    #content .thin .torrent_table .group .big_info .group_info > div .imdbRatingStyle1 {
+      background: none !important;
+      border: none !important; }
+      #content .thin .torrent_table .group .big_info .group_info > div .imdbRatingStyle1 .imdbrating .ofTen {
+        font-size: 10px; }
+      #content .thin .torrent_table .group .big_info .group_info > div .imdbRatingStyle1 .star {
+        display: none; }
+    #content .thin .torrent_table .group .big_info .group_info > div .imdbRatingPlugin {
+      color: #fff;
+      border-radius: 0;
+      font-family: LatoWeb; }
   #content .thin .torrent_table .group_torrent td:nth-child(3) a {
     color: #e4d18e !important; }
   #content .thin .torrent_table .group_torrent td:nth-child(3) span a {
