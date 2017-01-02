@@ -2142,7 +2142,11 @@ body {
   body select, body input {
     font-family: LatoWeb !important; }
   body select {
-    padding: 4px 11px 4px 4px; }
+    padding: 4px 11px 4px 4px;
+    background: #38393b;
+    background: -moz-linear-gradient(top, #38393b 0%, #2e3645 100%);
+    background: -webkit-linear-gradient(top, #38393b 0%, #2e3645 100%);
+    background: linear-gradient(to bottom, #38393b 0%, #2e3645 100%); }
     body select option {
       background: #222; }
   body input[type="submit"], body input[type="button"] {
@@ -2150,10 +2154,19 @@ body {
     border: none;
     border-radius: 3px;
     padding: 7px;
-    text-shadow: 0 0 3px #000; }
+    text-shadow: 0 0 3px #000;
+    transition: background .5s ease-out;
+    -webkit-transition: background .5s ease-out;
+    -moz-transition: background .5s ease-out;
+    -o-transition: background .5s ease-out; }
     body input[type="submit"]:hover, body input[type="button"]:hover {
       background: #6db8f9;
       cursor: pointer; }
+  body input.inputtext {
+    background: #38393b;
+    background: -moz-linear-gradient(top, #38393b 0%, #2e3645 100%);
+    background: -webkit-linear-gradient(top, #38393b 0%, #2e3645 100%);
+    background: linear-gradient(to bottom, #38393b 0%, #2e3645 100%); }
 
 #header {
   margin-bottom: 18px; }
