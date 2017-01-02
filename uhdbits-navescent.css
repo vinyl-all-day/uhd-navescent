@@ -2141,6 +2141,8 @@ body {
   background-position: 50% -15px; }
   body select, body input {
     font-family: LatoWeb !important; }
+  body select {
+    padding: 4px 11px 4px 4px; }
 
 #header {
   margin-bottom: 18px; }
@@ -2620,11 +2622,11 @@ body {
     #content .thin .search_form .box .pad table + .cat_list {
       text-align: left;
       width: 100%;
-      border-top: 1px solid #404040;
+      border-top: 1px solid #494949;
       margin-top: 20px; }
       #content .thin .search_form .box .pad table + .cat_list tbody tr td {
         width: 100px;
-        padding-top: 20px; }
+        padding-top: 20px !important; }
 
 #torrents #cluetip .cluetip-outer {
   border: 1px solid #777 !important; }
