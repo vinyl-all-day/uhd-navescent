@@ -2143,6 +2143,12 @@ body {
     font-family: LatoWeb !important; }
   body select {
     padding: 4px 11px 4px 4px; }
+    body select option {
+      background: #222; }
+  body input[type="submit"] {
+    background: #6db8f9 !important;
+    border: none !important;
+    border-radius: 4px; }
 
 #header {
   margin-bottom: 18px; }
