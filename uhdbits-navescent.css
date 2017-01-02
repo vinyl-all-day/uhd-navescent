@@ -2617,10 +2617,12 @@ body {
         text-align: left;
         width: 150px;
         font-weight: 700; }
-    #content .thin .search_form .box .pad table.cat_list:first-child {
+    #content .thin .search_form .box .pad table + .cat_list {
       text-align: left;
-      width: 100%; }
-      #content .thin .search_form .box .pad table.cat_list:first-child tbody tr td {
+      width: 100%;
+      border-top: 1px solid #404040;
+      margin-top: 20px; }
+      #content .thin .search_form .box .pad table + .cat_list tbody tr td {
         width: 100px;
         padding-top: 20px; }
 
