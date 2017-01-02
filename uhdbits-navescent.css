@@ -2145,10 +2145,15 @@ body {
     padding: 4px 11px 4px 4px; }
     body select option {
       background: #222; }
-  body input[type="submit"] {
-    background: #6db8f9 !important;
-    border: none !important;
-    border-radius: 4px; }
+  body input[type="submit"], body input[type="button"] {
+    background: #38678f;
+    border: none;
+    border-radius: 3px;
+    padding: 7px;
+    text-shadow: 0 0 3px #000; }
+    body input[type="submit"]:hover, body input[type="button"]:hover {
+      background: #6db8f9;
+      cursor: pointer; }
 
 #header {
   margin-bottom: 18px; }
