@@ -2464,10 +2464,12 @@ body {
     box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.5); }
     #content .thin .forum_index tbody .colhead {
       background: #38678f !important; }
-    #content .thin .forum_index tbody .rowb td:nth-child(2) h4 a, #content .thin .forum_index tbody .rowa td:nth-child(2) h4 a {
-      color: #fff !important; }
-    #content .thin .forum_index tbody .rowb td:nth-child(3) .last_topic a, #content .thin .forum_index tbody .rowa td:nth-child(3) .last_topic a {
+    #content .thin .forum_index tbody .rowb td, #content .thin .forum_index tbody .rowa td {
+      padding: 8px 4px; }
+    #content .thin .forum_index tbody .rowb td:nth-child(2) .last_topic a, #content .thin .forum_index tbody .rowa td:nth-child(2) .last_topic a {
       color: #6db8f9; }
+    #content .thin .forum_index tbody .rowb td:nth-child(2) .last_topic strong a, #content .thin .forum_index tbody .rowa td:nth-child(2) .last_topic strong a {
+      color: #fff; }
     #content .thin .forum_index tbody td {
       background: none; }
     #content .thin .forum_index tbody .rowb {
