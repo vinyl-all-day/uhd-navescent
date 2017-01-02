@@ -2207,6 +2207,8 @@ body {
       #menu ul li:nth-child(1):hover {
         background: rgba(255, 255, 255, 0.4);
         color: #444 !important; }
+        #menu ul li:nth-child(1):hover a {
+          color: white !important; }
     #menu ul li:nth-child(2) {
       background: rgba(255, 255, 255, 0);
       transition: background .5s ease-out;
@@ -2223,6 +2225,8 @@ body {
       #menu ul li:nth-child(2):hover {
         background: rgba(255, 255, 255, 0.4);
         color: #444 !important; }
+        #menu ul li:nth-child(2):hover a {
+          color: white !important; }
     #menu ul li:nth-child(3) {
       background: rgba(255, 255, 255, 0);
       transition: background .5s ease-out;
@@ -2239,6 +2243,8 @@ body {
       #menu ul li:nth-child(3):hover {
         background: rgba(255, 255, 255, 0.4);
         color: #444 !important; }
+        #menu ul li:nth-child(3):hover a {
+          color: white !important; }
     #menu ul li:nth-child(4) {
       background: rgba(255, 255, 255, 0);
       transition: background .5s ease-out;
@@ -2255,6 +2261,8 @@ body {
       #menu ul li:nth-child(4):hover {
         background: rgba(255, 255, 255, 0.4);
         color: #444 !important; }
+        #menu ul li:nth-child(4):hover a {
+          color: white !important; }
     #menu ul li:nth-child(5) {
       background: rgba(255, 255, 255, 0);
       transition: background .5s ease-out;
@@ -2271,6 +2279,8 @@ body {
       #menu ul li:nth-child(5):hover {
         background: rgba(255, 255, 255, 0.4);
         color: #444 !important; }
+        #menu ul li:nth-child(5):hover a {
+          color: white !important; }
     #menu ul li:nth-child(6) {
       background: rgba(255, 255, 255, 0);
       transition: background .5s ease-out;
@@ -2287,6 +2297,8 @@ body {
       #menu ul li:nth-child(6):hover {
         background: rgba(255, 255, 255, 0.4);
         color: #444 !important; }
+        #menu ul li:nth-child(6):hover a {
+          color: white !important; }
     #menu ul li:nth-child(7) {
       background: rgba(255, 255, 255, 0);
       transition: background .5s ease-out;
@@ -2303,6 +2315,8 @@ body {
       #menu ul li:nth-child(7):hover {
         background: rgba(255, 255, 255, 0.4);
         color: #444 !important; }
+        #menu ul li:nth-child(7):hover a {
+          color: white !important; }
     #menu ul li:nth-child(8) {
       background: rgba(255, 255, 255, 0);
       transition: background .5s ease-out;
@@ -2319,6 +2333,8 @@ body {
       #menu ul li:nth-child(8):hover {
         background: rgba(255, 255, 255, 0.4);
         color: #444 !important; }
+        #menu ul li:nth-child(8):hover a {
+          color: white !important; }
     #menu ul li:nth-child(9) {
       background: rgba(255, 255, 255, 0);
       transition: background .5s ease-out;
@@ -2335,6 +2351,8 @@ body {
       #menu ul li:nth-child(9):hover {
         background: rgba(255, 255, 255, 0.4);
         color: #444 !important; }
+        #menu ul li:nth-child(9):hover a {
+          color: white !important; }
     #menu ul li:nth-child(10) {
       background: rgba(255, 255, 255, 0);
       transition: background .5s ease-out;
@@ -2351,6 +2369,8 @@ body {
       #menu ul li:nth-child(10):hover {
         background: rgba(255, 255, 255, 0.4);
         color: #444 !important; }
+        #menu ul li:nth-child(10):hover a {
+          color: white !important; }
     #menu ul li:nth-child(11) {
       background: rgba(255, 255, 255, 0);
       transition: background .5s ease-out;
@@ -2367,6 +2387,8 @@ body {
       #menu ul li:nth-child(11):hover {
         background: rgba(255, 255, 255, 0.4);
         color: #444 !important; }
+        #menu ul li:nth-child(11):hover a {
+          color: white !important; }
 
 #searchbars {
   padding: 13px 0;
