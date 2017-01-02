@@ -2139,6 +2139,8 @@ body {
   background-image: url("https://ptpimg.me/5ow074.png");
   background-repeat: no-repeat;
   background-position: 50% -15px; }
+  body select, body input {
+    font-family: LatoWeb; }
 
 #header {
   margin-bottom: 18px; }
