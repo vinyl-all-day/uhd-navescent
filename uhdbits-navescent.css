@@ -2139,7 +2139,7 @@ body {
   background-image: url("https://ptpimg.me/5ow074.png");
   background-repeat: no-repeat;
   background-position: 50% -15px; }
-  body select, body input {
+  body select, body input, body textarea {
     font-family: LatoWeb !important; }
   body select {
     padding: 4px 11px 4px 4px;
@@ -2162,7 +2162,7 @@ body {
     body input[type="submit"]:hover, body input[type="button"]:hover {
       background: #6db8f9;
       cursor: pointer; }
-  body input.inputtext {
+  body input.inputtext, body input[type="text"], body textarea {
     background: #282a30;
     background: -moz-linear-gradient(top, #282a30 0%, #373a42 100%);
     background: -webkit-linear-gradient(top, #282a30 0%, #373a42 100%);
