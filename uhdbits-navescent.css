@@ -2448,5 +2448,7 @@ body {
     color: #fff !important; }
   #content .thin .forum_list .forum_index tbody .rowb td:nth-child(3) .last_topic a, #content .thin .forum_list .forum_index tbody .rowa td:nth-child(3) .last_topic a {
     color: #6db8f9; }
+  #content .thin #reply_box textarea#quickpost {
+    font-family: LatoWeb; }
 
 /*# sourceMappingURL=style.css.map */
