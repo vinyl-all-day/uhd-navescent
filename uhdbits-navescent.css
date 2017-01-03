@@ -2611,6 +2611,8 @@ body#upload #content .thin > p {
         font-weight: 700; }
       #content .thin .create_form table tbody tr:last-child {
         border-bottom: none !important; }
+    #content .thin .create_form #musicbrainz_tr td #imdbid {
+      margin-bottom: 15px; }
 
 #torrents #cluetip .cluetip-outer {
   border: 1px solid #777 !important; }
