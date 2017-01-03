@@ -2176,6 +2176,16 @@ body#upload #content .thin > p {
     background-size: 140px;
     position: relative;
     top: 20px; }
+    #header #logo a:before {
+      border: medium none;
+      color: #ad4794;
+      content: "BITS";
+      font-family: LatoWeb;
+      font-size: 15px !important;
+      left: 145px;
+      position: relative;
+      top: 12px;
+      text-shadow: 0 0 3px rgba(0, 0, 0, 0.7); }
   #header #userinfo {
     text-align: right;
     top: 5px; }
@@ -2362,9 +2372,9 @@ body#upload #content .thin > p {
     font-size: 12px;
     height: 30px;
     transition: border 0.5s ease-out;
-    -webkit-transition: border 0.3s ease-in;
-    -moz-transition: border 0.3s ease-in;
-    -o-transition: border 0.3s ease-in; }
+    -webkit-transition: border 0.3s ease-out;
+    -moz-transition: border 0.3s ease-out;
+    -o-transition: border 0.3s ease-out; }
 
 #content {
   overflow: visible; }
