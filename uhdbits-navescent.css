@@ -1962,162 +1962,162 @@ div.castItem img {
 /* Webfont: Lato-Black */
 @font-face {
   font-family: 'LatoWebBlack';
-  src: url("https://vinyl-all-day.github.io/uhd-navescent/Lato-Black.eot");
+  src: url("/design/fonts/Lato/Lato-Black.eot");
   /* IE9 Compat Modes */
-  src: url("https://vinyl-all-day.github.io/uhd-navescent/Lato-Black.eot?#iefix") format("embedded-opentype"), url("https://vinyl-all-day.github.io/uhd-navescent/Lato-Black.woff2") format("woff2"), url("https://vinyl-all-day.github.io/uhd-navescent/Lato-Black.woff") format("woff"), url("https://vinyl-all-day.github.io/uhd-navescent/Lato-Black.ttf") format("truetype");
+  src: url("/design/fonts/Lato/Lato-Black.eot?#iefix") format("embedded-opentype"), url("/design/fonts/Lato/Lato-Black.woff2") format("woff2"), url("/design/fonts/Lato/Lato-Black.woff") format("woff"), url("/design/fonts/Lato/Lato-Black.ttf") format("truetype");
   font-style: normal;
   font-weight: normal;
   text-rendering: optimizeLegibility; }
 /* Webfont: Lato-BlackItalic */
 @font-face {
   font-family: 'LatoWebBlack';
-  src: url("https://vinyl-all-day.github.io/uhd-navescent/Lato-BlackItalic.eot");
+  src: url("/design/fonts/Lato/Lato-BlackItalic.eot");
   /* IE9 Compat Modes */
-  src: url("https://vinyl-all-day.github.io/uhd-navescent/Lato-BlackItalic.eot?#iefix") format("embedded-opentype"), url("https://vinyl-all-day.github.io/uhd-navescent/Lato-BlackItalic.woff2") format("woff2"), url("https://vinyl-all-day.github.io/uhd-navescent/Lato-BlackItalic.woff") format("woff"), url("https://vinyl-all-day.github.io/uhd-navescent/Lato-BlackItalic.ttf") format("truetype");
+  src: url("/design/fonts/Lato/Lato-BlackItalic.eot?#iefix") format("embedded-opentype"), url("/design/fonts/Lato/Lato-BlackItalic.woff2") format("woff2"), url("/design/fonts/Lato/Lato-BlackItalic.woff") format("woff"), url("/design/fonts/Lato/Lato-BlackItalic.ttf") format("truetype");
   font-style: italic;
   font-weight: normal;
   text-rendering: optimizeLegibility; }
 /* Webfont: Lato-Bold */
 @font-face {
   font-family: 'LatoWebBold';
-  src: url("https://vinyl-all-day.github.io/uhd-navescent/Lato-Bold.eot");
+  src: url("/design/fonts/Lato/Lato-Bold.eot");
   /* IE9 Compat Modes */
-  src: url("https://vinyl-all-day.github.io/uhd-navescent/Lato-Bold.eot?#iefix") format("embedded-opentype"), url("https://vinyl-all-day.github.io/uhd-navescent/Lato-Bold.woff2") format("woff2"), url("https://vinyl-all-day.github.io/uhd-navescent/Lato-Bold.woff") format("woff"), url("https://vinyl-all-day.github.io/uhd-navescent/Lato-Bold.ttf") format("truetype");
+  src: url("/design/fonts/Lato/Lato-Bold.eot?#iefix") format("embedded-opentype"), url("/design/fonts/Lato/Lato-Bold.woff2") format("woff2"), url("/design/fonts/Lato/Lato-Bold.woff") format("woff"), url("/design/fonts/Lato/Lato-Bold.ttf") format("truetype");
   font-style: normal;
   font-weight: normal;
   text-rendering: optimizeLegibility; }
 /* Webfont: Lato-BoldItalic */
 @font-face {
   font-family: 'LatoWebBold';
-  src: url("https://vinyl-all-day.github.io/uhd-navescent/Lato-BoldItalic.eot");
+  src: url("/design/fonts/Lato/Lato-BoldItalic.eot");
   /* IE9 Compat Modes */
-  src: url("https://vinyl-all-day.github.io/uhd-navescent/Lato-BoldItalic.eot?#iefix") format("embedded-opentype"), url("https://vinyl-all-day.github.io/uhd-navescent/Lato-BoldItalic.woff2") format("woff2"), url("https://vinyl-all-day.github.io/uhd-navescent/Lato-BoldItalic.woff") format("woff"), url("https://vinyl-all-day.github.io/uhd-navescent/Lato-BoldItalic.ttf") format("truetype");
+  src: url("/design/fonts/Lato/Lato-BoldItalic.eot?#iefix") format("embedded-opentype"), url("/design/fonts/Lato/Lato-BoldItalic.woff2") format("woff2"), url("/design/fonts/Lato/Lato-BoldItalic.woff") format("woff"), url("/design/fonts/Lato/Lato-BoldItalic.ttf") format("truetype");
   font-style: italic;
   font-weight: normal;
   text-rendering: optimizeLegibility; }
 /* Webfont: Lato-Hairline */
 @font-face {
   font-family: 'LatoWebHairline';
-  src: url("https://vinyl-all-day.github.io/uhd-navescent/Lato-Hairline.eot");
+  src: url("/design/fonts/Lato/Lato-Hairline.eot");
   /* IE9 Compat Modes */
-  src: url("https://vinyl-all-day.github.io/uhd-navescent/Lato-Hairline.eot?#iefix") format("embedded-opentype"), url("https://vinyl-all-day.github.io/uhd-navescent/Lato-Hairline.woff2") format("woff2"), url("https://vinyl-all-day.github.io/uhd-navescent/Lato-Hairline.woff") format("woff"), url("https://vinyl-all-day.github.io/uhd-navescent/Lato-Hairline.ttf") format("truetype");
+  src: url("/design/fonts/Lato/Lato-Hairline.eot?#iefix") format("embedded-opentype"), url("/design/fonts/Lato/Lato-Hairline.woff2") format("woff2"), url("/design/fonts/Lato/Lato-Hairline.woff") format("woff"), url("/design/fonts/Lato/Lato-Hairline.ttf") format("truetype");
   font-style: normal;
   font-weight: normal;
   text-rendering: optimizeLegibility; }
 /* Webfont: Lato-HairlineItalic */
 @font-face {
   font-family: 'LatoWebHairline';
-  src: url("https://vinyl-all-day.github.io/uhd-navescent/Lato-HairlineItalic.eot");
+  src: url("/design/fonts/Lato/Lato-HairlineItalic.eot");
   /* IE9 Compat Modes */
-  src: url("https://vinyl-all-day.github.io/uhd-navescent/Lato-HairlineItalic.eot?#iefix") format("embedded-opentype"), url("https://vinyl-all-day.github.io/uhd-navescent/Lato-HairlineItalic.woff2") format("woff2"), url("https://vinyl-all-day.github.io/uhd-navescent/Lato-HairlineItalic.woff") format("woff"), url("https://vinyl-all-day.github.io/uhd-navescent/Lato-HairlineItalic.ttf") format("truetype");
+  src: url("/design/fonts/Lato/Lato-HairlineItalic.eot?#iefix") format("embedded-opentype"), url("/design/fonts/Lato/Lato-HairlineItalic.woff2") format("woff2"), url("/design/fonts/Lato/Lato-HairlineItalic.woff") format("woff"), url("/design/fonts/Lato/Lato-HairlineItalic.ttf") format("truetype");
   font-style: italic;
   font-weight: normal;
   text-rendering: optimizeLegibility; }
 /* Webfont: Lato-Heavy */
 @font-face {
   font-family: 'LatoWebHeavy';
-  src: url("https://vinyl-all-day.github.io/uhd-navescent/Lato-Heavy.eot");
+  src: url("/design/fonts/Lato/Lato-Heavy.eot");
   /* IE9 Compat Modes */
-  src: url("https://vinyl-all-day.github.io/uhd-navescent/Lato-Heavy.eot?#iefix") format("embedded-opentype"), url("https://vinyl-all-day.github.io/uhd-navescent/Lato-Heavy.woff2") format("woff2"), url("https://vinyl-all-day.github.io/uhd-navescent/Lato-Heavy.woff") format("woff"), url("https://vinyl-all-day.github.io/uhd-navescent/Lato-Heavy.ttf") format("truetype");
+  src: url("/design/fonts/Lato/Lato-Heavy.eot?#iefix") format("embedded-opentype"), url("/design/fonts/Lato/Lato-Heavy.woff2") format("woff2"), url("/design/fonts/Lato/Lato-Heavy.woff") format("woff"), url("/design/fonts/Lato/Lato-Heavy.ttf") format("truetype");
   font-style: normal;
   font-weight: normal;
   text-rendering: optimizeLegibility; }
 /* Webfont: Lato-HeavyItalic */
 @font-face {
   font-family: 'LatoWebHeavy';
-  src: url("https://vinyl-all-day.github.io/uhd-navescent/Lato-HeavyItalic.eot");
+  src: url("/design/fonts/Lato/Lato-HeavyItalic.eot");
   /* IE9 Compat Modes */
-  src: url("https://vinyl-all-day.github.io/uhd-navescent/Lato-HeavyItalic.eot?#iefix") format("embedded-opentype"), url("https://vinyl-all-day.github.io/uhd-navescent/Lato-HeavyItalic.woff2") format("woff2"), url("https://vinyl-all-day.github.io/uhd-navescent/Lato-HeavyItalic.woff") format("woff"), url("https://vinyl-all-day.github.io/uhd-navescent/Lato-HeavyItalic.ttf") format("truetype");
+  src: url("/design/fonts/Lato/Lato-HeavyItalic.eot?#iefix") format("embedded-opentype"), url("/design/fonts/Lato/Lato-HeavyItalic.woff2") format("woff2"), url("/design/fonts/Lato/Lato-HeavyItalic.woff") format("woff"), url("/design/fonts/Lato/Lato-HeavyItalic.ttf") format("truetype");
   font-style: italic;
   font-weight: normal;
   text-rendering: optimizeLegibility; }
 /* Webfont: Lato-Italic */
 @font-face {
   font-family: 'LatoWeb';
-  src: url("https://vinyl-all-day.github.io/uhd-navescent/Lato-Italic.eot");
+  src: url("/design/fonts/Lato/Lato-Italic.eot");
   /* IE9 Compat Modes */
-  src: url("https://vinyl-all-day.github.io/uhd-navescent/Lato-Italic.eot?#iefix") format("embedded-opentype"), url("https://vinyl-all-day.github.io/uhd-navescent/Lato-Italic.woff2") format("woff2"), url("https://vinyl-all-day.github.io/uhd-navescent/Lato-Italic.woff") format("woff"), url("https://vinyl-all-day.github.io/uhd-navescent/Lato-Italic.ttf") format("truetype");
+  src: url("/design/fonts/Lato/Lato-Italic.eot?#iefix") format("embedded-opentype"), url("/design/fonts/Lato/Lato-Italic.woff2") format("woff2"), url("/design/fonts/Lato/Lato-Italic.woff") format("woff"), url("/design/fonts/Lato/Lato-Italic.ttf") format("truetype");
   font-style: italic;
   font-weight: normal;
   text-rendering: optimizeLegibility; }
 /* Webfont: Lato-Light */
 @font-face {
   font-family: 'LatoWebLight';
-  src: url("https://vinyl-all-day.github.io/uhd-navescent/Lato-Light.eot");
+  src: url("/design/fonts/Lato/Lato-Light.eot");
   /* IE9 Compat Modes */
-  src: url("https://vinyl-all-day.github.io/uhd-navescent/Lato-Light.eot?#iefix") format("embedded-opentype"), url("https://vinyl-all-day.github.io/uhd-navescent/Lato-Light.woff2") format("woff2"), url("https://vinyl-all-day.github.io/uhd-navescent/Lato-Light.woff") format("woff"), url("https://vinyl-all-day.github.io/uhd-navescent/Lato-Light.ttf") format("truetype");
+  src: url("/design/fonts/Lato/Lato-Light.eot?#iefix") format("embedded-opentype"), url("/design/fonts/Lato/Lato-Light.woff2") format("woff2"), url("/design/fonts/Lato/Lato-Light.woff") format("woff"), url("/design/fonts/Lato/Lato-Light.ttf") format("truetype");
   font-style: normal;
   font-weight: normal;
   text-rendering: optimizeLegibility; }
 /* Webfont: Lato-LightItalic */
 @font-face {
   font-family: 'LatoWebLight';
-  src: url("https://vinyl-all-day.github.io/uhd-navescent/Lato-LightItalic.eot");
+  src: url("/design/fonts/Lato/Lato-LightItalic.eot");
   /* IE9 Compat Modes */
-  src: url("https://vinyl-all-day.github.io/uhd-navescent/Lato-LightItalic.eot?#iefix") format("embedded-opentype"), url("https://vinyl-all-day.github.io/uhd-navescent/Lato-LightItalic.woff2") format("woff2"), url("https://vinyl-all-day.github.io/uhd-navescent/Lato-LightItalic.woff") format("woff"), url("https://vinyl-all-day.github.io/uhd-navescent/Lato-LightItalic.ttf") format("truetype");
+  src: url("/design/fonts/Lato/Lato-LightItalic.eot?#iefix") format("embedded-opentype"), url("/design/fonts/Lato/Lato-LightItalic.woff2") format("woff2"), url("/design/fonts/Lato/Lato-LightItalic.woff") format("woff"), url("/design/fonts/Lato/Lato-LightItalic.ttf") format("truetype");
   font-style: italic;
   font-weight: normal;
   text-rendering: optimizeLegibility; }
 /* Webfont: Lato-Medium */
 @font-face {
   font-family: 'LatoWebMedium';
-  src: url("https://vinyl-all-day.github.io/uhd-navescent/Lato-Medium.eot");
+  src: url("/design/fonts/Lato/Lato-Medium.eot");
   /* IE9 Compat Modes */
-  src: url("https://vinyl-all-day.github.io/uhd-navescent/Lato-Medium.eot?#iefix") format("embedded-opentype"), url("https://vinyl-all-day.github.io/uhd-navescent/Lato-Medium.woff2") format("woff2"), url("https://vinyl-all-day.github.io/uhd-navescent/Lato-Medium.woff") format("woff"), url("https://vinyl-all-day.github.io/uhd-navescent/Lato-Medium.ttf") format("truetype");
+  src: url("/design/fonts/Lato/Lato-Medium.eot?#iefix") format("embedded-opentype"), url("/design/fonts/Lato/Lato-Medium.woff2") format("woff2"), url("/design/fonts/Lato/Lato-Medium.woff") format("woff"), url("/design/fonts/Lato/Lato-Medium.ttf") format("truetype");
   font-style: normal;
   font-weight: normal;
   text-rendering: optimizeLegibility; }
 /* Webfont: Lato-MediumItalic */
 @font-face {
   font-family: 'LatoWebMedium';
-  src: url("https://vinyl-all-day.github.io/uhd-navescent/Lato-MediumItalic.eot");
+  src: url("/design/fonts/Lato/Lato-MediumItalic.eot");
   /* IE9 Compat Modes */
-  src: url("https://vinyl-all-day.github.io/uhd-navescent/Lato-MediumItalic.eot?#iefix") format("embedded-opentype"), url("https://vinyl-all-day.github.io/uhd-navescent/Lato-MediumItalic.woff2") format("woff2"), url("https://vinyl-all-day.github.io/uhd-navescent/Lato-MediumItalic.woff") format("woff"), url("https://vinyl-all-day.github.io/uhd-navescent/Lato-MediumItalic.ttf") format("truetype");
+  src: url("/design/fonts/Lato/Lato-MediumItalic.eot?#iefix") format("embedded-opentype"), url("/design/fonts/Lato/Lato-MediumItalic.woff2") format("woff2"), url("/design/fonts/Lato/Lato-MediumItalic.woff") format("woff"), url("/design/fonts/Lato/Lato-MediumItalic.ttf") format("truetype");
   font-style: italic;
   font-weight: normal;
   text-rendering: optimizeLegibility; }
 /* Webfont: Lato-Regular */
 @font-face {
   font-family: 'LatoWeb';
-  src: url("https://vinyl-all-day.github.io/uhd-navescent/Lato-Regular.eot");
+  src: url("/design/fonts/Lato/Lato-Regular.eot");
   /* IE9 Compat Modes */
-  src: url("https://vinyl-all-day.github.io/uhd-navescent/Lato-Regular.eot?#iefix") format("embedded-opentype"), url("https://vinyl-all-day.github.io/uhd-navescent/Lato-Regular.woff2") format("woff2"), url("https://vinyl-all-day.github.io/uhd-navescent/Lato-Regular.woff") format("woff"), url("https://vinyl-all-day.github.io/uhd-navescent/Lato-Regular.ttf") format("truetype");
+  src: url("/design/fonts/Lato/Lato-Regular.eot?#iefix") format("embedded-opentype"), url("/design/fonts/Lato/Lato-Regular.woff2") format("woff2"), url("/design/fonts/Lato/Lato-Regular.woff") format("woff"), url("/design/fonts/Lato/Lato-Regular.ttf") format("truetype");
   font-style: normal;
   font-weight: normal;
   text-rendering: optimizeLegibility; }
 /* Webfont: Lato-Semibold */
 @font-face {
   font-family: 'LatoWebSemibold';
-  src: url("https://vinyl-all-day.github.io/uhd-navescent/Lato-Semibold.eot");
+  src: url("/design/fonts/Lato/Lato-Semibold.eot");
   /* IE9 Compat Modes */
-  src: url("https://vinyl-all-day.github.io/uhd-navescent/Lato-Semibold.eot?#iefix") format("embedded-opentype"), url("https://vinyl-all-day.github.io/uhd-navescent/Lato-Semibold.woff2") format("woff2"), url("https://vinyl-all-day.github.io/uhd-navescent/Lato-Semibold.woff") format("woff"), url("https://vinyl-all-day.github.io/uhd-navescent/Lato-Semibold.ttf") format("truetype");
+  src: url("/design/fonts/Lato/Lato-Semibold.eot?#iefix") format("embedded-opentype"), url("/design/fonts/Lato/Lato-Semibold.woff2") format("woff2"), url("/design/fonts/Lato/Lato-Semibold.woff") format("woff"), url("/design/fonts/Lato/Lato-Semibold.ttf") format("truetype");
   font-style: normal;
   font-weight: normal;
   text-rendering: optimizeLegibility; }
 /* Webfont: Lato-SemiboldItalic */
 @font-face {
   font-family: 'LatoWebSemibold';
-  src: url("https://vinyl-all-day.github.io/uhd-navescent/Lato-SemiboldItalic.eot");
+  src: url("/design/fonts/Lato/Lato-SemiboldItalic.eot");
   /* IE9 Compat Modes */
-  src: url("https://vinyl-all-day.github.io/uhd-navescent/Lato-SemiboldItalic.eot?#iefix") format("embedded-opentype"), url("https://vinyl-all-day.github.io/uhd-navescent/Lato-SemiboldItalic.woff2") format("woff2"), url("https://vinyl-all-day.github.io/uhd-navescent/Lato-SemiboldItalic.woff") format("woff"), url("https://vinyl-all-day.github.io/uhd-navescent/Lato-SemiboldItalic.ttf") format("truetype");
+  src: url("/design/fonts/Lato/Lato-SemiboldItalic.eot?#iefix") format("embedded-opentype"), url("/design/fonts/Lato/Lato-SemiboldItalic.woff2") format("woff2"), url("/design/fonts/Lato/Lato-SemiboldItalic.woff") format("woff"), url("/design/fonts/Lato/Lato-SemiboldItalic.ttf") format("truetype");
   font-style: italic;
   font-weight: normal;
   text-rendering: optimizeLegibility; }
 /* Webfont: Lato-Thin */
 @font-face {
   font-family: 'LatoWebThin';
-  src: url("https://vinyl-all-day.github.io/uhd-navescent/Lato-Thin.eot");
+  src: url("/design/fonts/Lato/Lato-Thin.eot");
   /* IE9 Compat Modes */
-  src: url("https://vinyl-all-day.github.io/uhd-navescent/Lato-Thin.eot?#iefix") format("embedded-opentype"), url("https://vinyl-all-day.github.io/uhd-navescent/Lato-Thin.woff2") format("woff2"), url("https://vinyl-all-day.github.io/uhd-navescent/Lato-Thin.woff") format("woff"), url("https://vinyl-all-day.github.io/uhd-navescent/Lato-Thin.ttf") format("truetype");
+  src: url("/design/fonts/Lato/Lato-Thin.eot?#iefix") format("embedded-opentype"), url("/design/fonts/Lato/Lato-Thin.woff2") format("woff2"), url("/design/fonts/Lato/Lato-Thin.woff") format("woff"), url("/design/fonts/Lato/Lato-Thin.ttf") format("truetype");
   font-style: normal;
   font-weight: normal;
   text-rendering: optimizeLegibility; }
 /* Webfont: Lato-ThinItalic */
 @font-face {
   font-family: 'LatoWebThin';
-  src: url("https://vinyl-all-day.github.io/uhd-navescent/Lato-ThinItalic.eot");
+  src: url("/design/fonts/Lato/Lato-ThinItalic.eot");
   /* IE9 Compat Modes */
-  src: url("https://vinyl-all-day.github.io/uhd-navescent/Lato-ThinItalic.eot?#iefix") format("embedded-opentype"), url("https://vinyl-all-day.github.io/uhd-navescent/Lato-ThinItalic.woff2") format("woff2"), url("https://vinyl-all-day.github.io/uhd-navescent/Lato-ThinItalic.woff") format("woff"), url("https://vinyl-all-day.github.io/uhd-navescent/Lato-ThinItalic.ttf") format("truetype");
+  src: url("/design/fonts/Lato/Lato-ThinItalic.eot?#iefix") format("embedded-opentype"), url("/design/fonts/Lato/Lato-ThinItalic.woff2") format("woff2"), url("/design/fonts/Lato/Lato-ThinItalic.woff") format("woff"), url("/design/fonts/Lato/Lato-ThinItalic.ttf") format("truetype");
   font-style: italic;
   font-weight: normal;
   text-rendering: optimizeLegibility; }
