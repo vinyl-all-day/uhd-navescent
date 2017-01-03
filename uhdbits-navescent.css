@@ -1,17 +1,5 @@
 /* latin-ext */
-@font-face {
-  font-family: 'Source Sans Pro';
-  font-style: normal;
-  font-weight: 400;
-  src: local("Source Sans Pro"), local("SourceSansPro-Regular"), url(fonts/sourcesanspro-lne.woff2) format("woff2");
-  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF; }
 /* latin */
-@font-face {
-  font-family: 'Source Sans Pro';
-  font-style: normal;
-  font-weight: 400;
-  src: local("Source Sans Pro"), local("SourceSansPro-Regular"), url(fonts/sourcesanspro-ln.woff2) format("woff2");
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
 * {
   margin: 0;
   padding: 0; }
@@ -2610,6 +2598,7 @@ body#upload #content .thin > p {
     background: -moz-linear-gradient(top, #38393b 0%, #2e3645 100%);
     background: -webkit-linear-gradient(top, #38393b 0%, #2e3645 100%);
     background: linear-gradient(to bottom, #38393b 0%, #2e3645 100%);
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.5);
     padding: 0 15px; }
     #content .thin .create_form table tbody tr {
       border-bottom: 1px solid #505050 !important;
@@ -2620,6 +2609,8 @@ body#upload #content .thin > p {
         text-align: left;
         width: 200px;
         font-weight: 700; }
+      #content .thin .create_form table tbody tr:last-child {
+        border-bottom: none !important; }
 
 #torrents #cluetip .cluetip-outer {
   border: 1px solid #777 !important; }
