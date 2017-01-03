@@ -2360,7 +2360,11 @@ body#upload #content .thin > p {
     background: -webkit-linear-gradient(top, #282a30 0%, #373a42 100%);
     background: linear-gradient(to bottom, #282a30 0%, #373a42 100%);
     font-size: 12px;
-    height: 30px; }
+    height: 30px;
+    transition: border 0.5s ease-out;
+    -webkit-transition: border 0.3s ease-in;
+    -moz-transition: border 0.3s ease-in;
+    -o-transition: border 0.3s ease-in; }
 
 #content {
   overflow: visible; }
