@@ -1232,4 +1232,9 @@ body#forums #content .thin .forum_list tbody tr { background: none; border-botto
 body#forums #content .thin .forum_list tbody tr td { padding: 8px; }
 body#forums #content .thin .forum_list tbody tr td a { color: #6db8f9; }
 
+body#user .thin .main_column2 .user_edit { width: 840px; margin-top: 17px; }
+body#user .thin .main_column2 .user_edit tbody tr { background: #38393b; background: -moz-linear-gradient(top, #38393b 0%, #2e3645 100%); background: -webkit-linear-gradient(top, #38393b 0%, #2e3645 100%); background: linear-gradient(to bottom, #38393b 0%, #2e3645 100%); }
+body#user .thin .main_column2 .user_edit tbody tr.colhead { background: #38678f !important; }
+body#user .thin .main_column2 .user_edit tbody tr.colhead a { color: #e4d18e; }
+
 /*# sourceMappingURL=style.css.map */
