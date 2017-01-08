@@ -1238,6 +1238,7 @@ body#user .thin .main_column2 .user_edit { width: 840px; margin-top: 17px; }
 body#user .thin .main_column2 .user_edit tbody tr { background: #38393b; background: -moz-linear-gradient(top, #38393b 0%, #2e3645 100%); background: -webkit-linear-gradient(top, #38393b 0%, #2e3645 100%); background: linear-gradient(to bottom, #38393b 0%, #2e3645 100%); }
 body#user .thin .main_column2 .user_edit tbody tr.colhead { background: #38678f !important; text-shadow: 0px 1px 1px #000; }
 body#user .thin .main_column2 .user_edit tbody tr.colhead a { color: #e4d18e; }
+body#user .thin .main_column2 #recent_snatches tbody tr:last-child td, body#user .thin .main_column2 #recent_uploads tbody tr:last-child td { text-align: center; float: left; width: 162px; }
 body#user .thin .main_column2 .box { box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.5); }
 body#user .thin .main_column2 .layout.recent { box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.5); }
 
