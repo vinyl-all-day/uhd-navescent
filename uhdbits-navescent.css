@@ -1168,6 +1168,7 @@ body#upload #content .thin > p input { margin-top: 10px; margin-bottom: 10px; bo
 #content .thin .main_column .main_column .torrent_table.details .colhead_dark td:first-child { padding: 9px; }
 #content .thin .main_column .main_column .main_column .box > form { margin: 20px 20px 0; }
 #content .thin .main_column .main_column .main_column .box > form input { margin-right: 10px; }
+#content .thin .main_column .main_column .main_column .box > input { margin: 20px; }
 #content .thin .forum_post { box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.5); }
 #content .thin .forum_post tbody .colhead_dark { background: #38678f; background: -moz-linear-gradient(left, #38678f 0%, #57518c 78%); background: -webkit-linear-gradient(left, #38678f 0%, #57518c 78%); background: linear-gradient(to right, #38678f 0%, #57518c 78%); }
 #content .thin .forum_post tbody .avatar { background: rgba(50, 50, 50, 0.4) none repeat scroll 0 0; border-right: 1px solid rgba(100, 100, 100, 0.6); width: 0; }
