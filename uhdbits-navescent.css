@@ -1005,7 +1005,7 @@ body#upload #content .thin > p input { margin-top: 10px; margin-bottom: 10px; bo
 
 #header { margin-bottom: 18px; }
 #header #logo { background-image: url("https://uhdbits.org/static/styles/uhd-navescent/images/logo.png"); height: 120px; background-size: 140px; position: relative; top: 20px; }
-#header #logo a:before { border: medium none; color: #ad4794; content: "BITS"; font-family: LatoWeb; font-size: 15px !important; left: 145px; position: relative; top: 12px; text-shadow: 0 0 3px rgba(0, 0, 0, 0.7); }
+#header #logo a:before { border: medium none; color: #ad4794; content: "HAPPY 2017!"; font-family: LatoWeb; font-size: 15px !important; left: 145px; position: relative; top: 12px; text-shadow: 0 0 3px rgba(0, 0, 0, 0.7); }
 #header #userinfo { text-align: right; top: 5px; }
 #header #userinfo #userinfo_username { font-size: 13px; }
 #header #userinfo #userinfo_username #nav_userinfo .username { color: #e4d18e !important; font-weight: 400; }
