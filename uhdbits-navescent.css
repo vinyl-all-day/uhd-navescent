@@ -1106,7 +1106,7 @@ body#upload #content .thin > p input { margin-top: 10px; margin-bottom: 10px; bo
 #content .main_column2 .box.news_post .pad a:hover { text-decoration: underline; }
 #content .thin .header h2 { color: #e4d18e; }
 #content .thin .header .linkbox .brackets { color: #6db8f9 !important; }
-#content .thin .box .head { background: #38678f; background: -moz-linear-gradient(left, #38678f 0%, #575f75 100%); background: -webkit-linear-gradient(left, #38678f 0%, #575f75 100%); background: linear-gradient(to right, #38678f 0%, #575f75 100%); }
+#content .thin .box .head { background: #38678f !important; }
 #content .thin .box .pad { background: #38393b; background: -moz-linear-gradient(top, #38393b 0%, #2e3645 100%); background: -webkit-linear-gradient(top, #38393b 0%, #2e3645 100%); background: linear-gradient(to bottom, #38393b 0%, #2e3645 100%); }
 #content .thin .box .pad .layout tbody tr { background: none; border: none; }
 #content .thin .torrent_table tbody .colhead { background: #38678f !important; }
