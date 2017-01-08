@@ -1227,6 +1227,7 @@ body#forums #content .thin .search_form table tbody tr { background: none; borde
 body#forums #content .thin .search_form table tbody tr td { padding-top: 10px; padding-bottom: 10px; }
 body#forums #content .thin .search_form table tbody tr td #forum_search_cat_list { width: 100%; }
 body#forums #content .thin .search_form table tbody tr:first-child td { padding-top: 0px; padding-bottom: 0px; }
+body#forums #content .thin .forum_list tbody tr.rowa, body#forums #content .thin .forum_list tbody tr.rowb { background: #141516; background: -moz-linear-gradient(top, #141516 0%, #191a1e 100%); background: -webkit-linear-gradient(top, #141516 0%, #191a1e 100%); background: linear-gradient(to bottom, #141516 0%, #191a1e 100%); }
 body#forums #content .thin .forum_list tbody tr.colhead { background: #38678f !important; }
 body#forums #content .thin .forum_list tbody tr { background: none; border-bottom: none; }
 body#forums #content .thin .forum_list tbody tr td { padding: 8px; }
