@@ -1134,11 +1134,26 @@ body#upload #content .thin > p input { margin-top: 10px; margin-bottom: 10px; bo
 #content .thin .main_column .box .body .imdb_block { padding: 10px; }
 #content .thin .main_column .box .body .imdb_block .imgbox { margin-right: 20px !important; }
 #content .thin .main_column .box .body .imdb_block .imgbox img { max-width: 100% !important; }
-#content .thin .main_column .box .body .imdb_block div > dl { padding-bottom: 10px; }
+#content .thin .main_column .box .body .imdb_block .imgbox b { display: none; visibility: hidden; }
+#content .thin .main_column .box .body .imdb_block div > dl { font-size: 13px; padding-bottom: 20px; padding-left: 10px; padding-right: 10px; }
 #content .thin .main_column .box .body .imdb_block div > dl .imovie_title { margin-bottom: 10px; }
+#content .thin .main_column .box .body .imdb_block div > dl .imovie_title a img { margin: 0px !important; padding: 0px !important; display: none; }
+#content .thin .main_column .box .body .imdb_block div > dl .imovie_title a:before { content: "\e900"; font-family: uhdbits; font-size: 19px; color: #e4d18e; position: relative; bottom: 1px; text-shadow: 0 0 2px #000; padding-left: 10px; }
 #content .thin .main_column .box .body .imdb_block div > dl .imdb_icon { margin: 0 auto -3px !important; }
+#content .thin .main_column .box .body .imdb_block div > dl dt { padding: 6px 6px 6px 0; }
+#content .thin .main_column .box .body .imdb_block div > dl dd { line-height: 20px; padding-bottom: 5px; padding-top: 5px; margin-left: 0px !important; }
+#content .thin .main_column .box .body .imdb_block div > dl dd a { color: #6db8f9; }
+#content .thin .main_column .box .body .imdb_block div > dl dd .rating .red100:before { content: "\e907"; font-family: uhdbits; font-size: 11px; color: #4b4b4b; position: relative; bottom: 1px; text-shadow: 0 0 2px #000; }
+#content .thin .main_column .box .body .imdb_block div > dl dd .rating .red100:after { content: "\e907"; font-family: uhdbits; font-size: 11px; color: #e4d18e; position: relative; bottom: 1px; right: 11px; }
+#content .thin .main_column .box .body .imdb_block div > dl dd .rating .red75:before { content: "\e907"; font-family: uhdbits; font-size: 11px; color: #4b4b4b; position: relative; bottom: 1px; text-shadow: 0 0 2px #000; }
+#content .thin .main_column .box .body .imdb_block div > dl dd .rating .red75:after { content: "\e906"; font-family: uhdbits; font-size: 11px; color: #e4d18e; position: relative; bottom: 1px; right: 11px; }
+#content .thin .main_column .box .body .imdb_block div > dl dd .rating .red50:before { content: "\e907"; font-family: uhdbits; font-size: 11px; color: #4b4b4b; position: relative; bottom: 1px; text-shadow: 0 0 2px #000; }
+#content .thin .main_column .box .body .imdb_block div > dl dd .rating .red50:after { content: "\e905"; font-family: uhdbits; font-size: 11px; color: #e4d18e; position: relative; bottom: 1px; right: 11px; }
+#content .thin .main_column .box .body .imdb_block div > dl dd .rating .red25:before { content: "\e907"; font-family: uhdbits; font-size: 11px; color: #4b4b4b; position: relative; bottom: 1px; text-shadow: 0 0 2px #000; }
+#content .thin .main_column .box .body .imdb_block div > dl dd .rating .red25:after { content: "\e904"; font-family: uhdbits; font-size: 11px; color: #e4d18e; position: relative; bottom: 1px; right: 11px; }
+#content .thin .main_column .box .body .imdb_block div > dl dd .rating .grey:before { content: "\e907"; font-family: uhdbits; font-size: 11px; color: #4b4b4b; position: relative; bottom: 1px; text-shadow: 0 0 2px #000; }
 #content .thin .main_column .box .body .imdb_block div .castItem { padding: 12px; width: 100px; background: #373a42; background: -moz-linear-gradient(top, #373a42 0%, #282a30 100%); background: -webkit-linear-gradient(top, #373a42 0%, #282a30 100%); background: linear-gradient(to bottom, #373a42 0%, #282a30 100%); }
-#content .thin .main_column .box .body .imdb_block div .castItem a { color: #e4d18e !important; }
+#content .thin .main_column .box .body .imdb_block div .castItem a { color: #6db8f9 !important; }
 #content .thin .main_column .box .body .imdb_block div .castItem a img { margin: auto 0 10px; }
 #content .thin .main_column .box .body .imdb_block img { background: none !important; border: none !important; }
 #content .thin .main_column .main_column .torrent_table.details .torrent_row td:first-child span a { color: #6db8f9 !important; }
