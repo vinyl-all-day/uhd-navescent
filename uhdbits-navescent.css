@@ -1249,6 +1249,13 @@ body#tools .permissions .permission_container .permission_subcontainer .layout t
 body#tools .permissions .permission_container .permission_subcontainer .layout tr td a { color: #6db8f9; text-shadow: 0px 1px 1px #000; }
 body#tools #footer { float: left; width: 100%; }
 
+body#bonus .box { box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.5); }
+body#bonus .box.pad.shadow { background: #38393b; background: -moz-linear-gradient(top, #38393b 0%, #2e3645 100%); background: -webkit-linear-gradient(top, #38393b 0%, #2e3645 100%); background: linear-gradient(to bottom, #38393b 0%, #2e3645 100%); margin-bottom: 15px; }
+body#bonus .box.pad.shadow a.anchor { color: #e4d18e; font-size: 16px; }
+body#bonus #bonusdiv .meter { background: #101010; text-align: left; border-radius: 3px; margin-top: 10px !important; box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.5); }
+body#bonus #bonusdiv .meter > span { display: inline-block; background: #1b6372; background: -moz-linear-gradient(left, #1b6372 0%, #295980 50%, #5f3e7e 100%); background: -webkit-linear-gradient(left, #1b6372 0%, #295980 50%, #5f3e7e 100%); background: linear-gradient(to right, #1b6372 0%, #295980 50%, #5f3e7e 100%); padding: 5px; box-sizing: border-box; border-radius: 2px 0 0 2px; text-shadow: 0px 1px 1px #000; }
+body#bonus #bonusdiv h3 { color: #e4d18e; font-size: 16px; }
+
 #username_major { font-size: 13px !important; }
 
 #nav_upload { font-size: 13px !important; }
