@@ -238,6 +238,48 @@ input[value="Make Default"] { margin-left: -.6em; }
 
 .ui-widget-header { background: none !important; border: none !important; }
 
+/*.ui-state-default { background: #17191c!important; border: none!important; width: 48px!important; height: 36px!important; margin: 1px!important;
+}
+
+.ui-state-default a { margin-left: 3px!important; margin-top: 4px!important;
+}
+
+.ui-state-active,.ui-tabs-selected,.ui-widget-content .ui-state-active,.ui-widget-header .ui-state-active { background: #2c2f36!important; color: #fff; margin: 1px!important;
+}
+
+.ui-state-hover,.ui-widget-content .ui-state-hover,.ui-widget-header .ui-state-hover { background: #222429!important; color: #fff;
+}
+
+.ui-tabs { width: 636px!important; font-size: 1.1em!important; background-color: #2c2f36!important;
+}
+
+.ui-tabs .ui-tabs-panel { background-color: #2c2f36!important;
+}
+
+.ui-tabs-nav { width: 48px!important; margin-top: -8px!important; margin-bottom: -10px!important; margin-left: -1px!important;
+}
+
+.ui-tabs-panel { width: 564px!important;
+}
+
+.ui-corner-all { -moz-border-radius: 0!important; -webkit-border-radius: 0!important; border-radius: 0!important;
+}
+
+.ui-corner-left { border-top-left-radius: 0!important; border-bottom-left-radius: 0!important
+}
+
+.ui-autocomplete-loading { background-color: #2c2f36!important; background-image: none!important;
+}
+
+#lumen_exchange_dialog { font-size: 1em!important; padding: 0 0 0 40px!important; background-color: #2c2f36!important;
+}
+
+#lumen_exchange_dialog td[style="text-align: center; font-weight: bold;"] { padding-right: 40px; font-weight: 300!important;
+}
+
+.ui-dialog-titlebar.ui-widget-header.ui-corner-all.ui-helper-clearfix { background-color: #2c2f36!important;
+}
+*/
 #recommend td[width="1%"] { color: transparent; }
 
 .welcome { font-size: 1em; background-color: #282828; border: 1px solid #303030; }
@@ -943,6 +985,25 @@ div.castItem img { margin: auto 0; }
 @font-face { font-family: 'LatoWebThin'; src: url("https://uhdbits.org/static/styles/uhd-navescent/fonts/Lato-ThinItalic.eot");
   /* IE9 Compat Modes */
   src: url("https://uhdbits.org/static/styles/uhd-navescent/fonts/Lato-ThinItalic.eot?#iefix") format("embedded-opentype"), url("https://uhdbits.org/static/styles/uhd-navescent/fonts/Lato-ThinItalic.woff2") format("woff2"), url("https://uhdbits.org/static/styles/uhd-navescent/fonts/Lato-ThinItalic.woff") format("woff"), url("https://uhdbits.org/static/styles/uhd-navescent/fonts/Lato-ThinItalic.ttf") format("truetype"); font-style: italic; font-weight: normal; text-rendering: optimizeLegibility; }
+@font-face { font-family: 'UHDbits'; src: url("https://vinyl-all-day.github.io/uhd-navescent/fonts/UHDbits.eot?put08k"); src: url("https://vinyl-all-day.github.io/uhd-navescent/fonts/UHDbits.eot?put08k#iefix") format("embedded-opentype"), url("https://vinyl-all-day.github.io/uhd-navescent/fonts/UHDbits.woff2?put08k") format("woff2"), url("https://vinyl-all-day.github.io/uhd-navescent/fonts/UHDbits.ttf?put08k") format("truetype"), url("https://vinyl-all-day.github.io/uhd-navescent/fonts/UHDbits.woff?put08k") format("woff"), url("https://vinyl-all-day.github.io/uhd-navescent/fonts/UHDbits.svg?put08k#UHDbits") format("svg"); font-weight: normal; font-style: normal; }
+[class^="uhd-"], [class*=" uhd-"] { /* use !important to prevent issues with browser extensions that change fonts */ font-family: 'UHDbits' !important; speak: none; font-style: normal; font-weight: normal; font-variant: normal; text-transform: none; line-height: 1; /* Better Font Rendering =========== */ -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+
+.uhd-imdb:before { content: "\e900"; }
+
+.uhd-tv:before { content: "\e901"; }
+
+.uhd-movie:before { content: "\e902"; }
+
+.uhd-music:before { content: "\e903"; }
+
+.uhd-quart_star:before { content: "\e904"; }
+
+.uhd-half_star:before { content: "\e905"; }
+
+.uhd-threequart_star:before { content: "\e906"; }
+
+.uhd-star:before { content: "\e907"; }
+
 body { font-family: LatoWeb; font-weight: 300; background-image: url("https://uhdbits.org/static/styles/uhd-navescent/images/bg.png"); background-repeat: no-repeat; background-position: 50% -13px; }
 body select, body input, body textarea { font-family: LatoWeb !important; }
 body select { padding: 4px 11px 4px 4px; background: #282a30; background: -moz-linear-gradient(top, #282a30 0%, #373a42 100%); background: -webkit-linear-gradient(top, #282a30 0%, #373a42 100%); background: linear-gradient(to bottom, #282a30 0%, #373a42 100%); }
@@ -1037,7 +1098,7 @@ body#upload #content .thin > p input { margin-top: 10px; margin-bottom: 10px; bo
 #content .main_column2 { width: 840px; }
 #content .main_column2 .box { background: #38393b; background: -moz-linear-gradient(top, #38393b 0%, #2e3645 100%); background: -webkit-linear-gradient(top, #38393b 0%, #2e3645 100%); background: linear-gradient(to bottom, #38393b 0%, #2e3645 100%); }
 #content .main_column2 .box.news_post { margin-bottom: 18px; box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.5); }
-#content .main_column2 .box.news_post .head { padding-left: 10px; background: #38678f; }
+#content .main_column2 .box.news_post .head { padding-left: 10px; }
 #content .main_column2 .box.news_post .head strong { font-weight: 700 !important; }
 #content .main_column2 .box.news_post .head .time.tooltip { color: #70bdff; padding-left: 6px; }
 #content .main_column2 .box.news_post .head span .brackets { color: #e4d18e !important; }
@@ -1045,7 +1106,7 @@ body#upload #content .thin > p input { margin-top: 10px; margin-bottom: 10px; bo
 #content .main_column2 .box.news_post .pad a:hover { text-decoration: underline; }
 #content .thin .header h2 { color: #e4d18e; }
 #content .thin .header .linkbox .brackets { color: #6db8f9 !important; }
-#content .thin .box .head { background: #38678f !important; }
+#content .thin .box .head { background: #38678f; background: -moz-linear-gradient(left, #38678f 0%, #575f75 100%); background: -webkit-linear-gradient(left, #38678f 0%, #575f75 100%); background: linear-gradient(to right, #38678f 0%, #575f75 100%); }
 #content .thin .box .pad { background: #38393b; background: -moz-linear-gradient(top, #38393b 0%, #2e3645 100%); background: -webkit-linear-gradient(top, #38393b 0%, #2e3645 100%); background: linear-gradient(to bottom, #38393b 0%, #2e3645 100%); }
 #content .thin .box .pad .layout tbody tr { background: none; border: none; }
 #content .thin .torrent_table tbody .colhead { background: #38678f !important; }
@@ -1058,6 +1119,13 @@ body#upload #content .thin > p input { margin-top: 10px; margin-bottom: 10px; bo
 #content .thin .torrent_table .group .big_info .group_info > div .imdbRatingStyle1 .star { display: none; }
 #content .thin .torrent_table .group .big_info .group_info > div .imdbRatingPlugin { color: #fff; border-radius: 0; font-family: LatoWeb; }
 #content .thin .torrent_table .group .big_info .group_info > div > a { position: relative; top: 3px; }
+#content .thin .torrent_table .group .center.cats_col { padding-right: 10px; padding-left: 10px; }
+#content .thin .torrent_table .group .center.cats_col a .cats_movie { background: none; }
+#content .thin .torrent_table .group .center.cats_col a .cats_movie:before { content: "\e902"; font-family: uhdbits; font-size: 36px; color: #5385af; position: relative; bottom: 5px; text-shadow: 0 0 2px #000; }
+#content .thin .torrent_table .group .center.cats_col a .cats_tv { background: none; }
+#content .thin .torrent_table .group .center.cats_col a .cats_tv:before { content: "\e901"; font-family: uhdbits; font-size: 36px; color: #5385af; position: relative; bottom: 1px; text-shadow: 0 0 2px #000; }
+#content .thin .torrent_table .group .center.cats_col a .cats_music { background: none; }
+#content .thin .torrent_table .group .center.cats_col a .cats_music:before { content: "\e903"; font-family: uhdbits; font-size: 36px; color: #5385af; position: relative; bottom: 0px; text-shadow: 0 0 2px #000; }
 #content .thin .torrent_table .group_torrent td:nth-child(3) a { color: #e4d18e !important; }
 #content .thin .torrent_table .group_torrent td:nth-child(3) span a { color: #6db8f9 !important; }
 #content .thin .torrent_table .group_torrent .nobr span { float: none; }
@@ -1078,7 +1146,7 @@ body#upload #content .thin > p input { margin-top: 10px; margin-bottom: 10px; bo
 #content .thin .main_column .main_column .torrent_table.details .colhead_dark { background: #38678f; }
 #content .thin .main_column .main_column .torrent_table.details .colhead_dark td:first-child { padding: 9px; }
 #content .thin .forum_post { box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.5); }
-#content .thin .forum_post tbody .colhead_dark { background: #38678f !important; }
+#content .thin .forum_post tbody .colhead_dark { background: #38678f; background: -moz-linear-gradient(left, #38678f 0%, #57518c 78%); background: -webkit-linear-gradient(left, #38678f 0%, #57518c 78%); background: linear-gradient(to right, #38678f 0%, #57518c 78%); }
 #content .thin .forum_post tbody .avatar { background: rgba(50, 50, 50, 0.4) none repeat scroll 0 0; border-right: 1px solid rgba(100, 100, 100, 0.6); width: 0; }
 #content .thin .forum_post tbody .body { background: #38393b; background: -moz-linear-gradient(top, #38393b 0%, #2e3645 100%); background: -webkit-linear-gradient(top, #38393b 0%, #2e3645 100%); background: linear-gradient(to bottom, #38393b 0%, #2e3645 100%); width: 940px; }
 #content .thin .forum_post tbody .body > div { max-width: 930px; font-size: 13px; }
