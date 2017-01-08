@@ -1007,6 +1007,7 @@ body#upload #content .thin > p input { margin-top: 10px; margin-bottom: 10px; bo
 #header #logo { background-image: url("https://uhdbits.org/static/styles/uhd-navescent/images/logo.png"); height: 120px; background-size: 140px; position: relative; top: 20px; }
 #header #logo a:before { border: medium none; color: #ad4794; content: "BITS"; font-family: LatoWeb; font-size: 15px !important; left: 145px; position: relative; top: 12px; text-shadow: 0 0 3px rgba(0, 0, 0, 0.7); }
 #header #userinfo { text-align: right; top: 5px; }
+#header #userinfo #userinfo_username { font-size: 13px; }
 #header #userinfo #userinfo_username #nav_userinfo .username { color: #e4d18e !important; font-weight: 400; }
 #header #userinfo #userinfo_stats { display: block; margin-top: 7px; background: -moz-linear-gradient(top, rgba(71, 42, 67, 0.15) 0%, rgba(44, 43, 44, 0) 97%, rgba(43, 43, 43, 0) 100%); background: -webkit-linear-gradient(top, rgba(71, 42, 67, 0.15) 0%, rgba(44, 43, 44, 0) 97%, rgba(43, 43, 43, 0) 100%); background: linear-gradient(to bottom, rgba(71, 42, 67, 0.15) 0%, rgba(44, 43, 44, 0) 97%, rgba(43, 43, 43, 0) 100%); border-top: 1px solid rgba(100, 100, 100, 0.6); border-bottom: 1px solid rgba(100, 100, 100, 0.25); height: 50px; padding-right: 15px; padding-top: 5px; }
 #header #userinfo #userinfo_stats li { display: table-cell; font-size: 0; padding-left: 20px; text-shadow: 0px 1px 1px #000; }
