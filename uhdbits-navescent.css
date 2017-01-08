@@ -874,19 +874,7 @@ div.castItem img { margin: auto 0; }
 
 .rating { overflow: hidden; /*float:left;*/ margin-right: 10px; /*clear: both;*/ }
 
-.rating .star { float: left; width: 16px; height: 16px; background: url(../../common/rating_star.gif) no-repeat 0 0px; cursor: pointer; }
-
-.rating .red25 { background: url(../../common/rating_star.gif) no-repeat 0 -16px; }
-
-.rating .red50 { background: url(../../common/rating_star.gif) no-repeat 0 -32px; }
-
-.rating .red75 { background: url(../../common/rating_star.gif) no-repeat 0 -48px; }
-
-.rating .red100 { background: url(../../common/rating_star.gif) no-repeat 0 -64px; }
-
-.rating .grey { background: url(../../common/rating_star.gif) no-repeat 0 0px; }
-
-.rating .yellow { background: url(../../common/rating_star.gif) no-repeat 0 -80px; }
+.rating .star { float: left; width: 16px; height: 16px; cursor: pointer; }
 
 .litag { float: left; width: 200px; }
 
