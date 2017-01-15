@@ -1120,6 +1120,7 @@ body#upload #content .thin > p input { margin-top: 10px; margin-bottom: 10px; bo
 #content .thin .torrent_table .group .center.cats_col a .cats_tv:before { content: "\e901"; font-family: uhdbits; font-size: 36px; color: #5385af; position: relative; bottom: 1px; text-shadow: 0 0 2px #000; }
 #content .thin .torrent_table .group .center.cats_col a .cats_music { background: none; }
 #content .thin .torrent_table .group .center.cats_col a .cats_music:before { content: "\e903"; font-family: uhdbits; font-size: 36px; color: #5385af; position: relative; bottom: 0px; text-shadow: 0 0 2px #000; }
+#content .thin .torrent_table .group .center.cats_col a:hover { text-decoration: none; }
 #content .thin .torrent_table .group_torrent { border-bottom: 1px solid #333; background: #141516; background: -moz-linear-gradient(top, #141516 0%, #191a1e 100%); background: -webkit-linear-gradient(top, #141516 0%, #191a1e 100%); background: linear-gradient(to bottom, #141516 0%, #191a1e 100%); }
 #content .thin .torrent_table .group_torrent td:nth-child(3) a { color: #e4d18e !important; }
 #content .thin .torrent_table .group_torrent td:nth-child(3) span a { color: #6db8f9 !important; }
@@ -1138,6 +1139,7 @@ body#upload #content .thin > p input { margin-top: 10px; margin-bottom: 10px; bo
 #content .thin .no_grouping tbody tr .center.cats_col a .cats_tv:before { content: "\e901"; font-family: uhdbits; font-size: 26px; color: #5385af; position: relative; bottom: 1px; text-shadow: 0 0 2px #000; }
 #content .thin .no_grouping tbody tr .center.cats_col a .cats_music { background: none; }
 #content .thin .no_grouping tbody tr .center.cats_col a .cats_music:before { content: "\e903"; font-family: uhdbits; font-size: 26px; color: #5385af; position: relative; bottom: 0px; text-shadow: 0 0 2px #000; }
+#content .thin .no_grouping tbody tr .center.cats_col a:hover { text-decoration: none; }
 #content .thin .main_column .box { background: #38393b; background: -moz-linear-gradient(top, #38393b 0%, #2e3645 100%); background: -webkit-linear-gradient(top, #38393b 0%, #2e3645 100%); background: linear-gradient(to bottom, #38393b 0%, #2e3645 100%); }
 #content .thin .main_column .box .body { background: #38393b; background: -moz-linear-gradient(top, #38393b 0%, #2e3645 100%); background: -webkit-linear-gradient(top, #38393b 0%, #2e3645 100%); background: linear-gradient(to bottom, #38393b 0%, #2e3645 100%); }
 #content .thin .main_column .box .body .imdb_block { padding: 10px; }
@@ -1223,7 +1225,9 @@ body#upload #content .thin > p input { margin-top: 10px; margin-bottom: 10px; bo
 #content .thin .create_form table tbody tr:last-child { border-bottom: none !important; }
 #content .thin .create_form #musicbrainz_tr td #imdbid { margin-bottom: 15px; }
 
+#torrents #cluetip { background: #2f2f2f; }
 #torrents #cluetip .cluetip-outer { border: 1px solid #777 !important; }
+#torrents #cluetip .cluetip-outer h3 { background: #2f2f2f; }
 #torrents #cluetip .cluetip-outer .cluetip-inner { background: #2f2f2f !important; color: #fff !important; }
 #torrents #cluetip .cluetip-outer .cluetip-inner .imdb_block2 div:first-child { margin-left: 4px; margin-right: 11px; margin-bottom: 4px; }
 #torrents #cluetip .cluetip-outer .cluetip-inner .imdb_block2 div:first-child img { border: none; background: none; }
@@ -1236,6 +1240,7 @@ body#upload #content .thin > p input { margin-top: 10px; margin-bottom: 10px; bo
 #torrents #sticky_table .torrent .center.cats_col a .cats_tv:before { content: "\e901"; font-family: uhdbits; font-size: 23px; color: #5385af; position: relative; bottom: 1px; text-shadow: 0 0 2px #000; }
 #torrents #sticky_table .torrent .center.cats_col a .cats_music { background: none; }
 #torrents #sticky_table .torrent .center.cats_col a .cats_music:before { content: "\e903"; font-family: uhdbits; font-size: 23px; color: #5385af; position: relative; bottom: 0px; text-shadow: 0 0 2px #000; }
+#torrents #sticky_table .torrent .center.cats_col a:hover { text-decoration: none; }
 #torrents #sticky_table .torrent .big_info .group_info { color: #e4d18e; }
 #torrents #sticky_table .torrent .big_info .group_info strong { color: #fff; font-weight: 700; }
 #torrents #sticky_table .torrent .big_info .group_info span a { color: #6db8f9; }
@@ -1306,3 +1311,4 @@ strong { font-weight: 700 !important; }
 
 a:hover { text-decoration: underline; }
 
+/*# sourceMappingURL=style.css.map */
