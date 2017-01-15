@@ -1312,6 +1312,8 @@ body#staff #content .thin .pad .staff { margin-top: 25px; }
 body#staff #content .thin .pad .staff .colhead td { background: #38678f; padding-top: 5px; padding-bottom: 5px; }
 body#staff #content .thin .pad .staff .rowa .staff:first-child, body#staff #content .thin .pad .staff .rowb .staff:first-child { padding-left: 6px; }
 body#staff #content .thin .pad p { padding-left: 0px; padding-right: 0px; margin-left: 0px; margin-right: 0px; }
+body#staff #content .thin .pad a { color: #6db8f9; }
+body#staff #content .thin .pad h3 { color: #e4d18e; }
 
 #username_major { font-size: 13px !important; }
 
