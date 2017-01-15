@@ -1326,7 +1326,9 @@ body#staff #content .thin .pad h3 { color: #e4d18e; }
 body#collage #content .thin .main_column { width: 840px; }
 body#collage #content .thin .main_column #coverart { box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.5); margin-bottom: 18px; }
 body#collage #content .thin .main_column #coverart ul.collage_images { width: 840px; }
-body#collage #content .thin .main_column #coverart ul.collage_images li { margin: 1px; }
+body#collage #content .thin .main_column #coverart ul.collage_images li { margin: 1px; height: 173px; }
+body#collage #content .thin .main_column #coverart ul.collage_images li a { height: 173px; }
+body#collage #content .thin .main_column #coverart ul.collage_images li a img { height: 173px; }
 
 #username_major { font-size: 13px !important; }
 
