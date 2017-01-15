@@ -1087,12 +1087,16 @@ body#upload #content .thin > p input { margin-top: 10px; margin-bottom: 10px; bo
 #content .main_column2 { width: 840px; }
 #content .main_column2 .box { background: #38393b; background: -moz-linear-gradient(top, #38393b 0%, #2e3645 100%); background: -webkit-linear-gradient(top, #38393b 0%, #2e3645 100%); background: linear-gradient(to bottom, #38393b 0%, #2e3645 100%); }
 #content .main_column2 .box.news_post { margin-bottom: 18px; box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.5); }
-#content .main_column2 .box.news_post .head { padding-left: 10px; }
+#content .main_column2 .box.news_post .head { padding-left: 10px; font-size: 13px !important; padding-top: 7px; }
 #content .main_column2 .box.news_post .head strong { font-weight: 700 !important; }
 #content .main_column2 .box.news_post .head .time.tooltip { color: #70bdff; padding-left: 6px; }
 #content .main_column2 .box.news_post .head span .brackets { color: #e4d18e !important; }
 #content .main_column2 .box.news_post .pad a { color: #e4d18e !important; }
 #content .main_column2 .box.news_post .pad a:hover { text-decoration: underline; }
+#content .main_column2 .head2 { background: #38678f; text-shadow: 0px 1px 1px #000; font-size: 13px !important; font-weight: 700; padding-top: 7px; box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.5); margin-top: 20px; }
+#content .main_column2 .user_online { background: #38393b; background: -moz-linear-gradient(top, #38393b 0%, #2e3645 100%); background: -webkit-linear-gradient(top, #38393b 0%, #2e3645 100%); background: linear-gradient(to bottom, #38393b 0%, #2e3645 100%); box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.5); }
+#content .main_column2 .user_online table tbody tr { background: none; border: none; }
+#content .main_column2 .user_online table tbody tr > td a { color: #6db8f9; }
 #content .thin .header h2 { color: #e4d18e; }
 #content .thin .header .linkbox .brackets { color: #6db8f9 !important; }
 #content .thin .box .head { background: #38678f !important; text-shadow: 0px 1px 1px #000; }
@@ -1312,6 +1316,10 @@ body#rss #search_form .pad .ft_cat_list { margin: 20px auto 10px; position: rela
 strong { font-weight: 700 !important; }
 
 a:hover { text-decoration: underline; }
+
+.class_3 { color: #798; }
+
+.class_2 { color: #6aa; }
 
 #quickreplytext .wysibb { border: none; background: #38678f; }
 #quickreplytext .wysibb .wysibb-toolbar { border: none; padding: 0px; padding-top: 5px; }
