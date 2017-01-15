@@ -1311,4 +1311,14 @@ strong { font-weight: 700 !important; }
 
 a:hover { text-decoration: underline; }
 
+#quickreplytext .wysibb { border: none; background: #38678f; }
+#quickreplytext .wysibb .wysibb-toolbar { border: none; padding: 0px; padding-top: 5px; }
+#quickreplytext .wysibb .wysibb-toolbar .wysibb-toolbar-btn span { color: #fff; text-shadow: 0px 1px 1px #000; }
+#quickreplytext .wysibb .wysibb-toolbar .wysibb-toolbar-btn:hover { background: #6db8f9; }
+#quickreplytext .wysibb .wysibb-toolbar .wysibb-toolbar-btn.on { background: #333; }
+#quickreplytext .wysibb .wysibb-toolbar .wysibb-toolbar-btn .wbb-list { background: #333; border: none; box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.5); }
+#quickreplytext .wysibb .wysibb-toolbar .wysibb-toolbar-container { border: none; }
+#quickreplytext .wysibb .wysibb-toolbar .wysibb-toolbar-container.modeSwitch { position: relative; }
+#quickreplytext .wysibb .wysibb-text textarea { padding: 10px !important; box-sizing: border-box; }
+
 /*# sourceMappingURL=style.css.map */
