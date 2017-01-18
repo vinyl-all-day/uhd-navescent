@@ -1330,6 +1330,23 @@ body#collage #content .thin .main_column #coverart ul.collage_images li { margin
 body#collage #content .thin .main_column #coverart ul.collage_images li a { height: 173px; }
 body#collage #content .thin .main_column #coverart ul.collage_images li a img { height: 173px; }
 
+body#subtitle #content table.layout.border { background: #38393b; background: -moz-linear-gradient(top, #38393b 0%, #2e3645 100%); background: -webkit-linear-gradient(top, #38393b 0%, #2e3645 100%); background: linear-gradient(to bottom, #38393b 0%, #2e3645 100%); text-shadow: 0px 1px 1px #000; box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.5); }
+body#subtitle #content table.layout.border tbody tr { background: none; border: none; }
+body#subtitle #content table.layout.border tbody tr td { padding: 15px; }
+body#subtitle #content table.layout.border tbody tr td.label { width: 80px; text-align: left; }
+body#subtitle #content table.layout.border tbody tr:first-child td { padding-top: 25px; }
+body#subtitle #content table.layout.border tbody tr:last-child td { padding-bottom: 25px; }
+body#subtitle #content table.log_table.border { text-shadow: 0px 1px 1px #000; box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.5); }
+body#subtitle #content table.log_table.border tbody tr.colhead { background: #38678f !important; }
+body#subtitle #content table.log_table.border tbody tr.rowa td:nth-child(1) strong img.flag, body#subtitle #content table.log_table.border tbody tr.rowb td:nth-child(1) strong img.flag { left: 8px; position: relative; top: 3px; }
+body#subtitle #content table.log_table.border tbody tr.rowa td:nth-child(2) strong a, body#subtitle #content table.log_table.border tbody tr.rowb td:nth-child(2) strong a { color: #fff; }
+body#subtitle #content table.log_table.border tbody tr.rowa td:nth-child(2) span a, body#subtitle #content table.log_table.border tbody tr.rowb td:nth-child(2) span a { color: #6db8f9; }
+body#subtitle #content table.log_table.border tbody tr.rowa td:nth-child(3) strong, body#subtitle #content table.log_table.border tbody tr.rowb td:nth-child(3) strong { font-weight: 100 !important; }
+body#subtitle #content table.log_table.border tbody tr.rowa td:nth-child(3) strong .jt img, body#subtitle #content table.log_table.border tbody tr.rowb td:nth-child(3) strong .jt img { display: none; }
+body#subtitle #content table.log_table.border tbody tr.rowa td:nth-child(3) strong .jt:before, body#subtitle #content table.log_table.border tbody tr.rowb td:nth-child(3) strong .jt:before { content: "\e900"; font-family: uhdbits; font-size: 19px; color: #e4d18e; position: relative; text-shadow: 0 0 2px #000; }
+body#subtitle #content table.log_table.border tbody tr.rowa td:nth-child(3) strong .jt:hover, body#subtitle #content table.log_table.border tbody tr.rowb td:nth-child(3) strong .jt:hover { text-decoration: none; }
+body#subtitle #content table.log_table.border tbody tr.rowa td:nth-child(8) strong a, body#subtitle #content table.log_table.border tbody tr.rowb td:nth-child(8) strong a { color: #6db8f9; }
+
 #username_major { font-size: 13px !important; }
 
 #nav_upload { font-size: 13px !important; }
@@ -1345,6 +1362,9 @@ a:hover { text-decoration: underline; }
 .class_3 { color: #798; }
 
 .class_2 { color: #6aa; }
+
+.linkbox a { color: #6db8f9; }
+.linkbox a.pager_next, .linkbox a.pager_prev { color: #e4d18e; }
 
 #quickreplytext .wysibb { border: none; background: #38678f; }
 #quickreplytext .wysibb .wysibb-toolbar { border: none; padding: 0px; padding-top: 5px; }
