@@ -1005,7 +1005,7 @@ body#upload #content .thin > p input { margin-top: 10px; margin-bottom: 10px; bo
 
 #header { margin-bottom: 18px; }
 #header #logo { background-image: url("https://uhdbits.org/static/styles/uhd-navescent/images/logo.png"); height: 120px; background-size: 140px; position: relative; top: 20px; }
-#header #logo a:before { border: medium none; color: #ad4794; content: "HAPPY 2017!"; font-family: LatoWeb; font-size: 15px !important; left: 145px; position: relative; top: 12px; text-shadow: 0 0 3px rgba(0, 0, 0, 0.7); }
+#header #logo a:before { border: medium none; color: #ad4794; content: "BITS"; font-family: LatoWebBold; font-weight: 100; font-size: 15px !important; left: 145px; position: relative; top: 12px; text-shadow: 0 0 3px rgba(0, 0, 0, 0.7); }
 #header #logo a:hover { text-decoration: none !important; }
 #header #userinfo { text-align: right; top: 5px; }
 #header #userinfo #userinfo_username { font-size: 13px; }
@@ -1018,10 +1018,10 @@ body#upload #content .thin > p input { margin-top: 10px; margin-bottom: 10px; bo
 #header #userinfo #userinfo_minor { font-size: 13px; position: relative; display: block; top: 6px; }
 #header #userinfo #userinfo_minor li a { color: #e4d18e; }
 
-#menu { margin-bottom: 0px; }
+#menu { margin-bottom: 0px; height: 38px; font-size: 13px; font-family: LatoWebMedium; }
 #menu ul { background: #1b6372; background: -moz-linear-gradient(left, #1b6372 0%, #295980 50%, #5f3e7e 100%); background: -webkit-linear-gradient(left, #1b6372 0%, #295980 50%, #5f3e7e 100%); background: linear-gradient(to right, #1b6372 0%, #295980 50%, #5f3e7e 100%); }
 #menu ul li { transition: background .5s ease-out; -webkit-transition: background .5s ease-out; -moz-transition: background .5s ease-out; -o-transition: background .5s ease-out; }
-#menu ul li a { text-shadow: 0px 1px 1px #000; transition: background .5s ease-out; -webkit-transition: background .5s ease-out; -moz-transition: background .5s ease-out; -o-transition: background .5s ease-out; }
+#menu ul li a { text-shadow: 0px 1px 1px #000; transition: background .5s ease-out; -webkit-transition: background .5s ease-out; -moz-transition: background .5s ease-out; -o-transition: background .5s ease-out; height: 38px; line-height: 39px; }
 #menu ul li:nth-child(1) { background: rgba(255, 255, 255, 0); }
 #menu ul li:nth-child(1) a { background: rgba(255,255,255,0.04); }
 #menu ul li:nth-child(1):hover { background: rgba(255, 255, 255, 0.4); color: #444 !important; }
@@ -1205,6 +1205,11 @@ body#upload #content .thin > p input { margin-top: 10px; margin-bottom: 10px; bo
 #content .thin .forum_list .forum_index tbody td { background: none; }
 #content .thin .forum_list .forum_index tbody .rowb { background: #272727 none repeat scroll 0 0; }
 #content .thin .forum_list .forum_index tbody .rowa { background: #2f2f2f none repeat scroll 0 0; }
+#content .thin .forum_list tbody tr.rowa, #content .thin .forum_list tbody tr.rowb { background: #141516; background: -moz-linear-gradient(top, #141516 0%, #191a1e 100%); background: -webkit-linear-gradient(top, #141516 0%, #191a1e 100%); background: linear-gradient(to bottom, #141516 0%, #191a1e 100%); }
+#content .thin .forum_list tbody tr.colhead { background: #38678f !important; }
+#content .thin .forum_list tbody tr { background: none; border-bottom: none; }
+#content .thin .forum_list tbody tr td { padding: 8px; }
+#content .thin .forum_list tbody tr td a { color: #6db8f9; }
 #content .thin .forum_index { box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.5); }
 #content .thin .forum_index tbody tr { border: none; }
 #content .thin .forum_index tbody .colhead { background: #38678f !important; }
@@ -1270,6 +1275,7 @@ body#forums #content .thin .forum_list tbody tr.colhead { background: #38678f !i
 body#forums #content .thin .forum_list tbody tr { background: none; border-bottom: none; }
 body#forums #content .thin .forum_list tbody tr td { padding: 8px; }
 body#forums #content .thin .forum_list tbody tr td a { color: #6db8f9; }
+body#forums #content .thin .forum_index tbody tr td h4 a { color: #6db8f9; }
 
 body#user .thin .main_column2 .user_edit { width: 840px; margin-top: 17px; }
 body#user .thin .main_column2 .user_edit tbody tr { background: #38393b; background: -moz-linear-gradient(top, #38393b 0%, #2e3645 100%); background: -webkit-linear-gradient(top, #38393b 0%, #2e3645 100%); background: linear-gradient(to bottom, #38393b 0%, #2e3645 100%); }
@@ -1340,7 +1346,7 @@ body#subtitle #content table.layout.border tbody tr:first-child td { padding-top
 body#subtitle #content table.layout.border tbody tr:last-child td { padding-bottom: 25px; }
 body#subtitle #content table.log_table.border { text-shadow: 0px 1px 1px #000; box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.5); }
 body#subtitle #content table.log_table.border tbody tr.colhead { background: #38678f !important; }
-body#subtitle #content table.log_table.border tbody tr.rowa td:nth-child(1) strong img.flag, body#subtitle #content table.log_table.border tbody tr.rowb td:nth-child(1) strong img.flag { left: 8px; position: relative; top: 3px; }
+body#subtitle #content table.log_table.border tbody tr.rowa td:nth-child(1) strong img.flag, body#subtitle #content table.log_table.border tbody tr.rowb td:nth-child(1) strong img.flag { left: 8px; border-radius: 10px; position: relative; top: 3px; }
 body#subtitle #content table.log_table.border tbody tr.rowa td:nth-child(2) strong a, body#subtitle #content table.log_table.border tbody tr.rowb td:nth-child(2) strong a { color: #fff; }
 body#subtitle #content table.log_table.border tbody tr.rowa td:nth-child(2) span a, body#subtitle #content table.log_table.border tbody tr.rowb td:nth-child(2) span a { color: #6db8f9; }
 body#subtitle #content table.log_table.border tbody tr.rowa td:nth-child(3) strong, body#subtitle #content table.log_table.border tbody tr.rowb td:nth-child(3) strong { font-weight: 100 !important; }
@@ -1348,6 +1354,23 @@ body#subtitle #content table.log_table.border tbody tr.rowa td:nth-child(3) stro
 body#subtitle #content table.log_table.border tbody tr.rowa td:nth-child(3) strong .jt:before, body#subtitle #content table.log_table.border tbody tr.rowb td:nth-child(3) strong .jt:before { content: "\e900"; font-family: uhdbits; font-size: 19px; color: #e4d18e; position: relative; text-shadow: 0 0 2px #000; }
 body#subtitle #content table.log_table.border tbody tr.rowa td:nth-child(3) strong .jt:hover, body#subtitle #content table.log_table.border tbody tr.rowb td:nth-child(3) strong .jt:hover { text-decoration: none; }
 body#subtitle #content table.log_table.border tbody tr.rowa td:nth-child(8) strong a, body#subtitle #content table.log_table.border tbody tr.rowb td:nth-child(8) strong a { color: #6db8f9; }
+
+body#collage .search_form .layout.border { background: #38393b; background: -moz-linear-gradient(top, #38393b 0%, #2e3645 100%); background: -webkit-linear-gradient(top, #38393b 0%, #2e3645 100%); background: linear-gradient(to bottom, #38393b 0%, #2e3645 100%); text-shadow: 0px 1px 1px #000; box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.5); }
+body#collage .search_form .layout.border tbody tr { background: none; border: none; }
+body#collage .search_form .layout.border tbody tr:first-child td { padding-top: 20px; }
+body#collage .search_form .layout.border tbody tr:last-child td { padding-bottom: 20px; }
+body#collage .search_form .layout.border tbody tr td { padding: 10px; }
+body#collage .search_form .layout.border tbody tr td.label { text-align: left; width: 160px; font-weight: 700; }
+body#collage .collage_table tbody { background: #38393b; background: -moz-linear-gradient(top, #38393b 0%, #2e3645 100%); background: -webkit-linear-gradient(top, #38393b 0%, #2e3645 100%); background: linear-gradient(to bottom, #38393b 0%, #2e3645 100%); text-shadow: 0px 1px 1px #000; box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.5); }
+body#collage .collage_table tbody tr { background: none; border: none; border-bottom: 1px solid #555; }
+body#collage .collage_table tbody tr.colhead { background: #38678f !important; }
+body#collage .collage_table tbody tr:last-child { border-bottom: none; }
+body#collage .collage_table tbody tr td { vertical-align: top; padding: 10px; }
+body#collage .collage_table tbody tr td:nth-child(1) > a { color: #e4d18e; }
+body#collage .collage_table tbody tr td:nth-child(1) .tags { padding: 0; }
+body#collage .collage_table tbody tr td:nth-child(2) > a { color: #6db8f9; }
+body#collage .collage_table tbody tr td:nth-child(2) .tags { padding: 0; }
+body#collage .collage_table tbody tr td:nth-child(2) .tags a { color: #e4d18e; }
 
 #username_major { font-size: 13px !important; }
 
