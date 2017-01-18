@@ -1131,6 +1131,8 @@ body#upload #content .thin > p input { margin-top: 10px; margin-bottom: 10px; bo
 #content .thin .torrent_table .group_torrent { border-bottom: 1px solid #333; background: #141516; background: -moz-linear-gradient(top, #141516 0%, #191a1e 100%); background: -webkit-linear-gradient(top, #141516 0%, #191a1e 100%); background: linear-gradient(to bottom, #141516 0%, #191a1e 100%); }
 #content .thin .torrent_table .group_torrent td:nth-child(3) a { color: #e4d18e !important; }
 #content .thin .torrent_table .group_torrent td:nth-child(3) span a { color: #6db8f9 !important; }
+#content .thin .torrent_table .group_torrent td:nth-child(3) .flag { border-radius: 10px; bottom: 2px; left: 6px; margin-bottom: -6px; opacity: 0.5; position: relative; }
+#content .thin .torrent_table .group_torrent td:nth-child(3) .flag:hover { opacity: 1.0; }
 #content .thin .torrent_table .group_torrent .nobr span { float: none; }
 #content .thin .no_grouping tbody .torrent { border: none; }
 #content .thin .no_grouping tbody .torrent .center.cats_col { padding-left: 17px; }
