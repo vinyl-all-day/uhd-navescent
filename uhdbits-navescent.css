@@ -1408,6 +1408,20 @@ body#subtitle table.subtitle_upload tbody tr:nth-child(3) a { color: #6db8f9; }
 body#subtitle table.subtitle_upload tbody tr td { border: none; }
 body#subtitle table.subtitle_upload tbody tr td.sub_detail { padding-top: 5px; padding-bottom: 5px; }
 
+body#collage .thin .main_column #discog_table { text-shadow: 0px 1px 1px #000; background: #38393b; background: -moz-linear-gradient(top, #38393b 0%, #2e3645 100%); background: -webkit-linear-gradient(top, #38393b 0%, #2e3645 100%); background: linear-gradient(to bottom, #38393b 0%, #2e3645 100%); box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.5); }
+body#collage .thin .main_column #discog_table tbody tr.colhead_dark { background: #38678f !important; }
+body#collage .thin .main_column #discog_table tbody tr.discog td:nth-child(2) { padding-right: 15px; padding-left: 10px; }
+body#collage .thin .main_column #discog_table tbody tr.discog td:nth-child(2) .cats_movie { background: none; }
+body#collage .thin .main_column #discog_table tbody tr.discog td:nth-child(2) .cats_movie:before { content: "\e902"; font-family: uhdbits; font-size: 33px; color: #5385af; position: relative; bottom: 4px; text-shadow: 0 0 2px #000; }
+body#collage .thin .main_column #discog_table tbody tr.discog td:nth-child(2) .cats_tv { background: none; }
+body#collage .thin .main_column #discog_table tbody tr.discog td:nth-child(2) .cats_tv:before { content: "\e901"; font-family: uhdbits; font-size: 33px; color: #5385af; position: relative; bottom: 4px; text-shadow: 0 0 2px #000; }
+body#collage .thin .main_column #discog_table tbody tr.discog td:nth-child(2) .cats_music { background: none; }
+body#collage .thin .main_column #discog_table tbody tr.discog td:nth-child(2) .cats_music:before { content: "\e903"; font-family: uhdbits; font-size: 33px; color: #5385af; position: relative; bottom: 3px; text-shadow: 0 0 2px #000; }
+body#collage .thin .main_column #discog_table tbody tr.discog td:nth-child(3) { padding-top: 10px; padding-bottom: 10px; }
+body#collage .thin .main_column #discog_table tbody tr.discog td:nth-child(3) .tags a { color: #e4d18e; }
+body#collage .thin .main_column #discog_table tbody tr.edition_1 td:first-child span.brackets a { color: #6db8f9; }
+body#collage .thin .main_column #discog_table tbody tr.edition_1 td:first-child > a { color: #e4d18e; }
+
 #username_major { font-size: 13px !important; }
 
 #nav_upload { font-size: 13px !important; }
