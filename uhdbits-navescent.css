@@ -1422,11 +1422,13 @@ body#collage .thin .main_column #discog_table tbody tr.discog td:nth-child(3) .t
 body#collage .thin .main_column #discog_table tbody tr.edition_1 td:first-child span.brackets a { color: #6db8f9; }
 body#collage .thin .main_column #discog_table tbody tr.edition_1 td:first-child > a { color: #e4d18e; }
 
+body#user #userform { text-shadow: 0px 1px 1px #000; }
 body#user #userform .settings_sidebar { width: 200px; padding-left: 0; }
 body#user #userform .settings_sidebar ul { margin-top: 40px; padding: 0; }
 body#user #userform .settings_sidebar ul li h2 a { color: #6db8f9; }
 body#user #userform .settings_sidebar ul li:nth-child(9) { margin: 15px 15px; border-top: 1px solid #555; padding-top: 15px; }
 body#user #userform .settings_sidebar #settings_sections { padding-bottom: 10px; }
+body#user #userform .settings_sidebar #settings_sections .head.user_side { width: 199px; }
 body#user #userform .main_column2 { width: 880px; }
 body#user #userform .main_column2 .layout { text-shadow: 0px 1px 1px #000; background: #38393b; background: -moz-linear-gradient(top, #38393b 0%, #2e3645 100%); background: -webkit-linear-gradient(top, #38393b 0%, #2e3645 100%); background: linear-gradient(to bottom, #38393b 0%, #2e3645 100%); box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.5); margin-bottom: 20px; }
 body#user #userform .main_column2 .layout tbody tr { background: none; border-bottom: 1px solid #555; }
