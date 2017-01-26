@@ -1375,6 +1375,28 @@ body#collage .collage_table tbody tr td:nth-child(2) > a { color: #6db8f9; }
 body#collage .collage_table tbody tr td:nth-child(2) .tags { padding: 0; }
 body#collage .collage_table tbody tr td:nth-child(2) .tags a { color: #e4d18e; }
 
+body#requests .search_form { background: #38393b; background: -moz-linear-gradient(top, #38393b 0%, #2e3645 100%); background: -webkit-linear-gradient(top, #38393b 0%, #2e3645 100%); background: linear-gradient(to bottom, #38393b 0%, #2e3645 100%); box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.5); }
+body#requests .search_form .layout { text-shadow: 0px 1px 1px #000; }
+body#requests .search_form .layout tbody tr { background: none; border: none; }
+body#requests .search_form .layout tbody tr:first-child td { padding-top: 20px; }
+body#requests .search_form .layout tbody tr:last-child td { padding-bottom: 20px; }
+body#requests .search_form .layout tbody tr td { padding: 10px; }
+body#requests .search_form .layout tbody tr td.label { text-align: left; width: 160px; font-weight: 700; padding-left: 25px; }
+body#requests .search_form .layout tbody tr#release_list td input, body#requests .search_form .layout tbody tr#format_list td input, body#requests .search_form .layout tbody tr#bitrate_list td input, body#requests .search_form .layout tbody tr#media_list td input { margin-right: 5px; margin-bottom: 10px; }
+body#requests .search_form .layout tbody tr#release_list td label, body#requests .search_form .layout tbody tr#format_list td label, body#requests .search_form .layout tbody tr#bitrate_list td label, body#requests .search_form .layout tbody tr#media_list td label { margin-right: 10px; }
+body#requests .search_form .layout.cat_list { margin-left: 195px; }
+body#requests .search_form .layout.cat_list tbody tr td { width: 20%; }
+body#requests .request_table { text-shadow: 0px 1px 1px #000; background: #38393b; background: -moz-linear-gradient(top, #38393b 0%, #2e3645 100%); background: -webkit-linear-gradient(top, #38393b 0%, #2e3645 100%); background: linear-gradient(to bottom, #38393b 0%, #2e3645 100%); box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.5); }
+body#requests .request_table tbody tr.colhead { background: #38678f; }
+body#requests .request_table tbody tr.rowa, body#requests .request_table tbody tr.rowb { background: none; border-bottom: 1px solid #555; }
+body#requests .request_table tbody tr.rowa:last-child, body#requests .request_table tbody tr.rowb:last-child { border-bottom: none; }
+body#requests .request_table tbody tr.rowa td, body#requests .request_table tbody tr.rowb td { padding-top: 5px; padding-bottom: 5px; }
+body#requests .request_table tbody tr.rowa td:first-child, body#requests .request_table tbody tr.rowb td:first-child { padding-left: 10px; }
+body#requests .request_table tbody tr.rowa td:first-child a, body#requests .request_table tbody tr.rowb td:first-child a { color: #6db8f9; }
+body#requests .request_table tbody tr.rowa td:nth-child(2) a, body#requests .request_table tbody tr.rowb td:nth-child(2) a { color: #6db8f9; }
+body#requests .request_table tbody tr.rowa td:nth-child(4) a, body#requests .request_table tbody tr.rowb td:nth-child(4) a { color: #6db8f9; }
+body#requests .request_table tbody tr.rowa td .tags a, body#requests .request_table tbody tr.rowb td .tags a { color: #e4d18e; }
+
 #username_major { font-size: 13px !important; }
 
 #nav_upload { font-size: 13px !important; }
