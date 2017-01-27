@@ -1457,7 +1457,8 @@ a:hover { text-decoration: underline; }
 .linkbox a { color: #6db8f9; }
 .linkbox a.pager_next, .linkbox a.pager_prev { color: #e4d18e; }
 
-.alert-box.notice { color: #e4d18e; background: -moz-linear-gradient(top, rgba(228, 209, 142, 0.5) 0%, rgba(228, 209, 142, 0.2) 100%); background: -webkit-linear-gradient(top, rgba(228, 209, 142, 0.5) 0%, rgba(228, 209, 142, 0.2) 100%); background: linear-gradient(to bottom, rgba(228, 209, 142, 0.5) 0%, rgba(228, 209, 142, 0.2) 100%); margin-bottom: 15px; padding: 10px 0; }
+.alert-box.notice { color: #e4d18e; background: -moz-linear-gradient(top, rgba(228, 209, 142, 0.5) 0%, rgba(228, 209, 142, 0.2) 100%); background: -webkit-linear-gradient(top, rgba(228, 209, 142, 0.5) 0%, rgba(228, 209, 142, 0.2) 100%); background: linear-gradient(to bottom, rgba(228, 209, 142, 0.5) 0%, rgba(228, 209, 142, 0.2) 100%); margin-bottom: 15px; padding: 10px 0; text-shadow: 0px 1px 1px #000; }
+.alert-box.notice span { font-family: LatoWebBlack; }
 
 #quickreplytext .wysibb { border: none; background: #38678f; }
 #quickreplytext .wysibb .wysibb-toolbar { border: none; padding: 0px; padding-top: 5px; }
