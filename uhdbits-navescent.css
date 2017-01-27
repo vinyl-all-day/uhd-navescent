@@ -1225,7 +1225,7 @@ body#upload #content .thin > p input { margin-top: 10px; margin-bottom: 10px; bo
 #content .thin .search_form .box .pad { padding-bottom: 20px; }
 #content .thin .search_form .box .pad table { font-size: 13px; }
 #content .thin .search_form .box .pad table tbody tr td { padding: 5px 3px !important; vertical-align: middle !important; }
-#content .thin .search_form .box .pad table tbody tr td.label { text-align: left; width: 150px; font-weight: 700; }
+#content .thin .search_form .box .pad table tbody tr td.label { text-align: left; width: 160px; font-weight: 700; padding-left: 20px; }
 #content .thin .search_form .box .pad table + .cat_list { text-align: left; margin-top: 10px; width: 100%; }
 #content .thin .search_form .box .pad table + .cat_list tbody tr td { width: 100%; padding-top: 10px !important; }
 #content .thin .search_form .box .pad table + .cat_list tbody tr td a { color: #6db8f9; }
@@ -1341,7 +1341,7 @@ body#collage #content .thin .main_column #coverart ul.collage_images li a img { 
 body#subtitle #content table.layout.border { background: #38393b; background: -moz-linear-gradient(top, #38393b 0%, #2e3645 100%); background: -webkit-linear-gradient(top, #38393b 0%, #2e3645 100%); background: linear-gradient(to bottom, #38393b 0%, #2e3645 100%); text-shadow: 0px 1px 1px #000; box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.5); }
 body#subtitle #content table.layout.border tbody tr { background: none; border: none; }
 body#subtitle #content table.layout.border tbody tr td { padding: 15px; }
-body#subtitle #content table.layout.border tbody tr td.label { width: 80px; text-align: left; }
+body#subtitle #content table.layout.border tbody tr td.label { width: 160px; text-align: left; padding-left: 20px; font-weight: 700; }
 body#subtitle #content table.layout.border tbody tr:first-child td { padding-top: 25px; }
 body#subtitle #content table.layout.border tbody tr:last-child td { padding-bottom: 25px; }
 body#subtitle #content table.log_table.border { background: #38393b; background: -moz-linear-gradient(top, #38393b 0%, #2e3645 100%); background: -webkit-linear-gradient(top, #38393b 0%, #2e3645 100%); background: linear-gradient(to bottom, #38393b 0%, #2e3645 100%); text-shadow: 0px 1px 1px #000; box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.5); }
@@ -1363,7 +1363,7 @@ body#collage .search_form .layout.border tbody tr { background: none; border: no
 body#collage .search_form .layout.border tbody tr:first-child td { padding-top: 20px; }
 body#collage .search_form .layout.border tbody tr:last-child td { padding-bottom: 20px; }
 body#collage .search_form .layout.border tbody tr td { padding: 10px; }
-body#collage .search_form .layout.border tbody tr td.label { text-align: left; width: 160px; font-weight: 700; }
+body#collage .search_form .layout.border tbody tr td.label { text-align: left; width: 160px; font-weight: 700; padding-left: 20px; }
 body#collage .collage_table tbody { background: #38393b; background: -moz-linear-gradient(top, #38393b 0%, #2e3645 100%); background: -webkit-linear-gradient(top, #38393b 0%, #2e3645 100%); background: linear-gradient(to bottom, #38393b 0%, #2e3645 100%); text-shadow: 0px 1px 1px #000; box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.5); }
 body#collage .collage_table tbody tr { background: none; border: none; border-bottom: 1px solid #555; }
 body#collage .collage_table tbody tr.colhead { background: #38678f !important; }
