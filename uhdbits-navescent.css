@@ -398,10 +398,6 @@ span.center_poll { background: #565960; border-radius: 3px; display: inline-bloc
 
 #series .sidebar .box .stats { text-align: initial !important; }
 
-.rating { background: url(images/hover-rating.png) 0 -32px repeat-x !important; }
-
-.rating-bg { background: url(images/hover-rating.png) top left repeat-x !important; }
-
 .torrent_table tr { /* font-size:1.1em;*/ }
 
 .torrent_table tbody .pad > td, .torrent_table tbody > .pad { padding: 0; }
