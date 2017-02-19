@@ -1432,6 +1432,15 @@ body#user #userform .main_column2 .layout tbody tr.colhead_dark td { padding-top
 body#user #userform .main_column2 .layout tbody tr td { padding-top: 15px; padding-bottom: 15px; }
 body#user #userform .main_column2 .layout tbody tr td.label { text-align: left; width: 230px; padding-left: 15px; padding-top: 15px; padding-bottom: 10px; }
 
+body#torrents2 .torrent_table .poster { position: relative; }
+body#torrents2 .torrent_table .poster > td { position: absolute; width: 60px; left: 13px; top: 7px; }
+body#torrents2 .torrent_table .poster > td > img { width: 100%; height: auto; border: 1px solid #555; box-shadow: 0px 0px 11px -1px rgba(0, 0, 0, 0.5); }
+body#torrents2 .torrent_table .group { height: 64px; }
+body#torrents2 .torrent_table .group .center { position: relative; }
+body#torrents2 .torrent_table .group .center.cats_col > a .cats_movie { visibility: hidden; }
+body#torrents2 .torrent_table .group .center div.hide_torrents { visibility: hidden; }
+body#torrents2 .torrent_table .group_torrent { height: 50px; }
+
 #username_major { font-size: 13px !important; }
 
 #nav_upload { font-size: 13px !important; }
