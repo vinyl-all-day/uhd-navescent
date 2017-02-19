@@ -1434,7 +1434,7 @@ body#user #userform .main_column2 .layout tbody tr td.label { text-align: left; 
 
 body#torrents2 .torrent_table .poster { position: relative; display: block; }
 body#torrents2 .torrent_table .poster > td { position: absolute; width: 60px; left: 13px; top: 7px; }
-body#torrents2 .torrent_table .poster > td > img { width: 100%; height: auto; border: 1px solid #555; box-shadow: 0px 0px 11px -1px rgba(0, 0, 0, 0.5); }
+body#torrents2 .torrent_table .poster > td > a img { width: 100%; height: auto; border: 1px solid #555; box-shadow: 0px 0px 11px -1px rgba(0, 0, 0, 0.5); }
 body#torrents2 .torrent_table .group { height: 64px; }
 body#torrents2 .torrent_table .group .center { position: relative; }
 body#torrents2 .torrent_table .group .center.cats_col > a .cats_movie { visibility: hidden; }
