@@ -1433,15 +1433,18 @@ body#user #userform .main_column2 .layout tbody tr td { padding-top: 15px; paddi
 body#user #userform .main_column2 .layout tbody tr td.label { text-align: left; width: 230px; padding-left: 15px; padding-top: 15px; padding-bottom: 10px; }
 
 body#torrents2 .torrent_table .poster { position: relative; display: block; }
-body#torrents2 .torrent_table .poster > td { position: absolute; width: 60px; left: 13px; top: 7px; }
+body#torrents2 .torrent_table .poster > td { position: absolute; width: 95px; left: 6px; top: 7px; }
 body#torrents2 .torrent_table .poster > td > a img { width: 100%; height: auto; border: 1px solid #555; box-shadow: 0px 0px 11px -1px rgba(0, 0, 0, 0.5); }
-body#torrents2 .torrent_table .poster > td > a .no-poster { display: inline-block; width: 60px; background: black; height: 86px; border: 1px solid #555; box-shadow: 0px 0px 11px -1px rgba(0, 0, 0, 0.5); }
-body#torrents2 .torrent_table .poster > td > a .no-poster span { display: block; width: 44px; box-sizing: border-box; white-space: normal; text-align: center; margin: 0 auto; position: relative; top: 17px; }
+body#torrents2 .torrent_table .poster > td > a .no-poster { display: inline-block; width: 95px; background: black; height: 140px; border: 1px solid #555; box-shadow: 0px 0px 11px -1px rgba(0, 0, 0, 0.5); }
+body#torrents2 .torrent_table .poster > td > a .no-poster span { display: block; width: 44px; box-sizing: border-box; white-space: normal; text-align: center; margin: 0 auto; position: relative; top: 45px; }
 body#torrents2 .torrent_table .group { height: 64px; }
 body#torrents2 .torrent_table .group .center { position: relative; }
-body#torrents2 .torrent_table .group .center.cats_col > a .cats_movie { visibility: hidden; }
-body#torrents2 .torrent_table .group .center div.hide_torrents { visibility: hidden; }
+body#torrents2 .torrent_table .group .center .hide_torrents .show_torrents_link { display: none; }
+body#torrents2 .torrent_table .group .center.cats_col > a { display: none; }
+body#torrents2 .torrent_table .group .big_info { padding-left: 85px; }
 body#torrents2 .torrent_table .group_torrent { height: 50px; }
+body#torrents2 .torrent_table .group_torrent.single-torrent { height: 100px !important; vertical-align: top; }
+body#torrents2 .torrent_table .group_torrent td:nth-child(3) { padding-left: 90px; }
 
 #username_major { font-size: 13px !important; }
 
