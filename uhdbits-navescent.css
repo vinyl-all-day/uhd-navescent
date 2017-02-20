@@ -1443,7 +1443,7 @@ body#torrents2 .torrent_table .group .center .hide_torrents .show_torrents_link 
 body#torrents2 .torrent_table .group .center.cats_col > a { display: none; }
 body#torrents2 .torrent_table .group .big_info { padding-left: 85px; }
 body#torrents2 .torrent_table .group_torrent { height: 50px; }
-body#torrents2 .torrent_table .group_torrent.single-torrent { height: 100px !important; vertical-align: top; }
+body#torrents2 .torrent_table .group_torrent.single-group { height: 100px !important; vertical-align: top; }
 body#torrents2 .torrent_table .group_torrent td:nth-child(3) { padding-left: 90px; }
 
 #username_major { font-size: 13px !important; }
