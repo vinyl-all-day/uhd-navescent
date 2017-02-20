@@ -1446,6 +1446,10 @@ body#torrents2 .torrent_table .group .center, body#torrents .torrent_table .grou
 body#torrents2 .torrent_table .group .center .hide_torrents .show_torrents_link, body#torrents .torrent_table .group .center .hide_torrents .show_torrents_link { display: none; }
 body#torrents2 .torrent_table .group .center.cats_col > a, body#torrents .torrent_table .group .center.cats_col > a { display: none; }
 body#torrents2 .torrent_table .group .big_info, body#torrents .torrent_table .group .big_info { padding-left: 85px; }
+body#torrents2 .torrent_table .group .big_info .group_info > div .subs, body#torrents .torrent_table .group .big_info .group_info > div .subs { position: relative; top: 8px; float: left; margin-left: 10px; }
+body#torrents2 .torrent_table .group .big_info .group_info > div .subs > span, body#torrents .torrent_table .group .big_info .group_info > div .subs > span { color: #e4d18e; }
+body#torrents2 .torrent_table .group .big_info .group_info > div .subs > a img, body#torrents .torrent_table .group .big_info .group_info > div .subs > a img { border-radius: 10px; bottom: 2px; left: 6px; margin-bottom: -6px; opacity: 0.5; position: relative; }
+body#torrents2 .torrent_table .group .big_info .group_info > div .subs > a img:hover, body#torrents .torrent_table .group .big_info .group_info > div .subs > a img:hover { opacity: 1.0; }
 body#torrents2 .torrent_table .group_torrent, body#torrents .torrent_table .group_torrent { height: 50px; }
 body#torrents2 .torrent_table .group_torrent.single-group, body#torrents .torrent_table .group_torrent.single-group { height: 100px !important; vertical-align: top; }
 body#torrents2 .torrent_table .group_torrent td:nth-child(3), body#torrents .torrent_table .group_torrent td:nth-child(3) { padding-left: 90px; }
