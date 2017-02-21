@@ -1432,8 +1432,11 @@ body#user #userform .main_column2 .layout tbody tr.colhead_dark td { padding-top
 body#user #userform .main_column2 .layout tbody tr td { padding-top: 15px; padding-bottom: 15px; }
 body#user #userform .main_column2 .layout tbody tr td.label { text-align: left; width: 230px; padding-left: 15px; padding-top: 15px; padding-bottom: 10px; }
 
+body#torrents2 #sticky_table .big_info, body#torrents #sticky_table .big_info { position: relative; }
+body#torrents2 #sticky_table .big_info .group_image img, body#torrents #sticky_table .big_info .group_image img { display: none; }
+body#torrents2 #sticky_table .big_info .group_image + .group_info, body#torrents #sticky_table .big_info .group_image + .group_info { margin-left: 0; }
 body#torrents2 .torrent_table .poster, body#torrents .torrent_table .poster { position: relative; display: block; background: none; border: none; }
-body#torrents2 .torrent_table .poster > td, body#torrents .torrent_table .poster > td { position: absolute; width: 95px; left: 6px; top: 7px; background: none; border: none; }
+body#torrents2 .torrent_table .poster > td, body#torrents .torrent_table .poster > td { position: absolute; width: 95px; left: 9px; top: 7px; background: none; border: none; }
 body#torrents2 .torrent_table .poster > td > a img, body#torrents .torrent_table .poster > td > a img { width: 100%; height: auto; border: 1px solid #555; box-shadow: 0px 0px 11px -1px rgba(0, 0, 0, 0.5); }
 body#torrents2 .torrent_table .poster > td > a .no-poster, body#torrents .torrent_table .poster > td > a .no-poster { display: inline-block; width: 95px; background: black; height: 140px; border: 1px solid #555; box-shadow: 0px 0px 11px -1px rgba(0, 0, 0, 0.5); }
 body#torrents2 .torrent_table .poster > td > a .no-poster span, body#torrents .torrent_table .poster > td > a .no-poster span { display: block; width: 44px; box-sizing: border-box; white-space: normal; text-align: center; margin: 0 auto; position: relative; top: 45px; }
@@ -1445,7 +1448,9 @@ body#torrents2 .torrent_table .group, body#torrents .torrent_table .group { heig
 body#torrents2 .torrent_table .group .center, body#torrents .torrent_table .group .center { position: relative; }
 body#torrents2 .torrent_table .group .center .hide_torrents .show_torrents_link, body#torrents .torrent_table .group .center .hide_torrents .show_torrents_link { display: none; }
 body#torrents2 .torrent_table .group .center.cats_col > a, body#torrents .torrent_table .group .center.cats_col > a { display: none; }
-body#torrents2 .torrent_table .group .big_info, body#torrents .torrent_table .group .big_info { padding-left: 85px; }
+body#torrents2 .torrent_table .group .big_info, body#torrents .torrent_table .group .big_info { padding-left: 85px; position: relative; }
+body#torrents2 .torrent_table .group .big_info .group_image, body#torrents .torrent_table .group .big_info .group_image { position: absolute; left: -20px; box-shadow: 0px 0px 11px -2px rgba(0, 0, 0, 0.7); }
+body#torrents2 .torrent_table .group .big_info .group_image img, body#torrents .torrent_table .group .big_info .group_image img { border: 1px solid #555; }
 body#torrents2 .torrent_table .group .big_info .group_info > div .subs, body#torrents .torrent_table .group .big_info .group_info > div .subs { position: relative; top: 8px; float: left; margin-left: 10px; }
 body#torrents2 .torrent_table .group .big_info .group_info > div .subs > span, body#torrents .torrent_table .group .big_info .group_info > div .subs > span { color: #e4d18e; }
 body#torrents2 .torrent_table .group .big_info .group_info > div .subs > a img, body#torrents .torrent_table .group .big_info .group_info > div .subs > a img { border-radius: 10px; bottom: 2px; left: 6px; margin-bottom: -6px; opacity: 0.5; position: relative; }
