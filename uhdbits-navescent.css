@@ -1462,12 +1462,15 @@ body#torrents2 .has-poster .torrent_table .group_torrent td:nth-child(3), body#t
 body#forums #content .forum_post td.body { position: relative; }
 body#forums #content .forum_post td.body div[id^="content"] { padding-bottom: 70px; }
 body#forums #content .forum_post td.body .liked-this { position: absolute; bottom: 18px; }
-body#forums #content .forum_post td.body .liked-this div.like-button > span:first-child > a { background: #232323; background: -moz-linear-gradient(top, #232323 0%, #303030 100%); background: -webkit-linear-gradient(top, #232323 0%, #303030 100%); background: linear-gradient(to bottom, #232323 0%, #303030 100%); display: inline-block; padding: 5px 9px 4px 9px; border-radius: 3px; color: #e4d18e; text-shadow: 0px 1px 1px #000; box-shadow: 0px 2px 2px -1px rgba(0, 0, 0, 0.7); text-decoration: none; }
-body#forums #content .forum_post td.body .liked-this div.like-button > span:first-child > a:before { content: "\e914"; font-family: uhdbits; font-size: 14px; color: #e4d18e; position: relative; bottom: -2px; text-shadow: 0px 1px 1px #000; margin-right: 5px; }
-body#forums #content .forum_post td.body .liked-this div.like-button > span:first-child > a:hover { background: #2a2a2a; background: -moz-linear-gradient(top, #2a2a2a 0%, #363636 100%); background: -webkit-linear-gradient(top, #2a2a2a 0%, #363636 100%); background: linear-gradient(to bottom, #2a2a2a 0%, #363636 100%); }
+body#forums #content .forum_post td.body .liked-this div.like-button > span:not(.like-user) > a { background: #232323; background: -moz-linear-gradient(top, #232323 0%, #303030 100%); background: -webkit-linear-gradient(top, #232323 0%, #303030 100%); background: linear-gradient(to bottom, #232323 0%, #303030 100%); display: inline-block; padding: 5px 9px 4px 9px; border-radius: 3px; color: #e4d18e; text-shadow: 0px 1px 1px #000; box-shadow: 0px 2px 2px -1px rgba(0, 0, 0, 0.7); text-decoration: none; }
+body#forums #content .forum_post td.body .liked-this div.like-button > span:not(.like-user) > a:before { content: "\e914"; font-family: uhdbits; font-size: 14px; color: #e4d18e; position: relative; bottom: -2px; text-shadow: 0px 1px 1px #000; margin-right: 5px; }
+body#forums #content .forum_post td.body .liked-this div.like-button > span:not(.like-user) > a:hover { background: #2a2a2a; background: -moz-linear-gradient(top, #2a2a2a 0%, #363636 100%); background: -webkit-linear-gradient(top, #2a2a2a 0%, #363636 100%); background: linear-gradient(to bottom, #2a2a2a 0%, #363636 100%); }
 body#forums #content .forum_post td.body .liked-this div.liked-list { background: #222; width: 916px; box-sizing: border-box; padding: 5px 8px; border-radius: 4px; border: 1px solid #4a4a4a; font-size: 11px; opacity: 0.8; box-shadow: inset 0px 1px 4px 0px black; transition: opacity 0.5s ease-out; -webkit-transition: opacity 0.3s ease-out; -moz-transition: opacity 0.3s ease-out; -o-transition: opacity 0.3s ease-out; }
+body#forums #content .forum_post td.body .liked-this div.liked-list .like-button > span:nth-child(1) { position: relative; bottom: 5px; }
 body#forums #content .forum_post td.body .liked-this div.liked-list .like-button > span > a { margin-right: 10px; margin-top: 10px; }
-body#forums #content .forum_post td.body .liked-this div.liked-list > span:first-child { position: absolute; left: 97px; font-size: 9px; top: 8px; }
+body#forums #content .forum_post td.body .liked-this div.liked-list .like-button .like-user { padding-top: 5px; }
+body#forums #content .forum_post td.body .liked-this div.liked-list .like-button .like-user a:nth-child(2) { position: relative; right: 10px; }
+body#forums #content .forum_post td.body .liked-this div.liked-list > span:first-child { position: absolute; left: 97px; font-size: 9px; top: 10px; }
 body#forums #content .forum_post td.body .liked-this div.liked-list:hover { opacity: 1.0; }
 
 #username_major, #nav_upload, #nav_invite, #nav_donate { font-size: 13px !important; }
