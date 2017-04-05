@@ -1469,7 +1469,8 @@ body#forums #content .forum_post td.body .liked-this div.liked-list { background
 body#forums #content .forum_post td.body .liked-this div.liked-list .like-button > span:nth-child(1) { position: relative; bottom: 5px; }
 body#forums #content .forum_post td.body .liked-this div.liked-list .like-button > span > a { margin-right: 10px; margin-top: 10px; }
 body#forums #content .forum_post td.body .liked-this div.liked-list .like-button .like-user { padding-top: 5px; }
-body#forums #content .forum_post td.body .liked-this div.liked-list .like-button .like-user a:nth-child(2) { position: relative; right: 10px; }
+body#forums #content .forum_post td.body .liked-this div.liked-list .like-button .like-user a { margin-right: 0px; }
+body#forums #content .forum_post td.body .liked-this div.liked-list .like-button .like-user a:nth-child(2) { position: relative; }
 body#forums #content .forum_post td.body .liked-this div.liked-list > span:first-child { position: absolute; left: 97px; font-size: 9px; top: 10px; }
 body#forums #content .forum_post td.body .liked-this div.liked-list:hover { opacity: 1.0; }
 
