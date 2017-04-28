@@ -1105,7 +1105,7 @@ body#upload #content .thin > p input { margin-top: 10px; margin-bottom: 10px; bo
 #content .thin .torrent_table tbody tr:last-child { border-bottom: none; }
 #content .thin .torrent_table .group { background: #38393b; background: -moz-linear-gradient(top, #38393b 0%, #2e3645 100%); background: -webkit-linear-gradient(top, #38393b 0%, #2e3645 100%); background: linear-gradient(to bottom, #38393b 0%, #2e3645 100%); }
 #content .thin .torrent_table .group .big_info { padding-top: 10px; }
-#content .thin .torrent_table .group .big_info .group_info a { font-family: LatoWebBold; font-weight: 100; font-size: 13px; }
+#content .thin .torrent_table .group .big_info .group_info a { font-family: LatoWebBold; font-weight: 100; font-size: 13px; white-space: normal; }
 #content .thin .torrent_table .group .big_info .group_info > div .imdbRatingStyle1 { background: none !important; border: none !important; }
 #content .thin .torrent_table .group .big_info .group_info > div .imdbRatingStyle1 a img { display: none; }
 #content .thin .torrent_table .group .big_info .group_info > div .imdbRatingStyle1 a:before { content: "\e900"; bottom: 0; color: #e4d18e; font-family: uhdbits; font-size: 12px; font-weight: 100; padding-left: 0; position: relative; text-shadow: 0 0 2px #000; top: 1px; }
