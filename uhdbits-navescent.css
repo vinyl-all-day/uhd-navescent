@@ -1472,6 +1472,8 @@ body#forums #content .forum_post td.body .likes-container .likes-user-container 
 body#forums #content .forum_post td.body .likes-container .likes-user-container .likes-liked-by-label { color: #999; margin-right: 5px; font-size: 10px; font-family: LatoWebBlack; }
 body#forums #content .forum_post td.body .likes-container.no-users { background: none; border: none; box-shadow: none; }
 body#forums #content .forum_post td.body .likes-container.no-users .likes-button-container .like-button { bottom: 8px; left: -12px; }
+body#forums #content .forum_post td.body .likes-container.self .likes-button-container { display: none; }
+body#forums #content .forum_post td.body .likes-container.self .likes-user-container { padding-left: 0px !important; }
 
 #username_major, #nav_upload, #nav_invite, #nav_donate { font-size: 13px !important; }
 
