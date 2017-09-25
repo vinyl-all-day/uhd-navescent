@@ -970,6 +970,38 @@ div.castItem img { margin: auto 0; }
 @font-face { font-family: 'UHDbits'; src: url("https://uhdbits.org/static/styles/navescent/fonts/UHDbits.eot?put08k"); src: url("https://uhdbits.org/static/styles/navescent/fonts/UHDbits.eot?put08k#iefix") format("embedded-opentype"), url("https://uhdbits.org/static/styles/navescent/fonts/UHDbits.woff2?put08k") format("woff2"), url("https://uhdbits.org/static/styles/navescent/fonts/UHDbits.ttf?put08k") format("truetype"), url("https://uhdbits.org/static/styles/navescent/fonts/UHDbits.woff?put08k") format("woff"), url("https://uhdbits.org/static/styles/navescent/fonts/UHDbits.svg?put08k#UHDbits") format("svg"); font-weight: normal; font-style: normal; }
 [class^="uhd-"], [class*=" uhd-"] { /* use !important to prevent issues with browser extensions that change fonts */ font-family: 'UHDbits' !important; speak: none; font-style: normal; font-weight: normal; font-variant: normal; text-transform: none; line-height: 1; /* Better Font Rendering =========== */ -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
 
+.uhd-EXCLUSIVE:before, .uhd-exclusive:before { content: "\e915"; }
+
+.uhd-INTERNAL:before, .uhd-internal:before { content: "\e916"; }
+
+.uhd-UHD:before, .uhd-logo:before { content: "\e917"; }
+
+.uhd-bookmark:before { content: "\e908"; }
+
+.uhd-collapse:before { content: "\e909"; }
+
+.uhd-donor:before { content: "\e90a"; }
+
+.uhd-download:before { content: "\e90b"; }
+
+.uhd-expand:before { content: "\e90c"; }
+
+.uhd-feed:before { content: "\e90d"; }
+
+.uhd-locked:before { content: "\e90e"; }
+
+.uhd-read:before { content: "\e90f"; }
+
+.uhd-snatches:before { content: "\e910"; }
+
+.uhd-sticky:before { content: "\e911"; }
+
+.uhd-unread:before { content: "\e912"; }
+
+.uhd-upload:before { content: "\e913"; }
+
+.uhd-like:before { content: "\e914"; }
+
 .uhd-imdb:before { content: "\e900"; }
 
 .uhd-tv:before { content: "\e901"; }
@@ -1127,6 +1159,12 @@ body#upload #content .thin > p input { margin-top: 10px; margin-bottom: 10px; bo
 #content .thin .torrent_table .group_torrent td:nth-child(3) span a { color: #6db8f9 !important; }
 #content .thin .torrent_table .group_torrent td:nth-child(3) .flag { border-radius: 10px; bottom: 2px; left: 6px; margin-bottom: -6px; opacity: 0.5; position: relative; }
 #content .thin .torrent_table .group_torrent td:nth-child(3) .flag:hover { opacity: 1.0; }
+#content .thin .torrent_table .group_torrent td:nth-child(3) .site-logo { float: none; }
+#content .thin .torrent_table .group_torrent td:nth-child(3) .site-logo:before { content: "\e917"; font-family: uhdbits; font-size: 9px; margin-left: 5px; color: #6db8f9; }
+#content .thin .torrent_table .group_torrent td:nth-child(3) .site-internal { float: none; }
+#content .thin .torrent_table .group_torrent td:nth-child(3) .site-internal:before { content: "\e916"; font-family: uhdbits; font-size: 9px; margin: 0 5px; color: #e4d18e; }
+#content .thin .torrent_table .group_torrent td:nth-child(3) .site-exclusive { float: none; }
+#content .thin .torrent_table .group_torrent td:nth-child(3) .site-exclusive:before { content: "\e915"; font-family: uhdbits; font-size: 9px; margin: 0 5px; color: #a02071; }
 #content .thin .torrent_table .group_torrent .nobr span { float: none; }
 #content .thin .no_grouping tbody .torrent { border: none; }
 #content .thin .no_grouping tbody .torrent .center.cats_col { padding-left: 17px; }
