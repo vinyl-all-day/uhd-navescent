@@ -1165,7 +1165,7 @@ body#upload #content .thin > p input { margin-top: 10px; margin-bottom: 10px; bo
 #content .thin .torrent_table .group_torrent td:nth-child(3) .site-internal:before { content: "\e916"; font-family: uhdbits; font-size: 8px; margin-right: 5px; color: #e4d18e; text-shadow: 0px 0px 9px rgba(228, 209, 142, 0.7); }
 #content .thin .torrent_table .group_torrent td:nth-child(3) span.site-internal + span { margin: 0px; }
 #content .thin .torrent_table .group_torrent td:nth-child(3) .site-exclusive { float: none; }
-#content .thin .torrent_table .group_torrent td:nth-child(3) .site-exclusive:before { content: "\e915"; font-family: uhdbits; font-size: 8px; margin-right: 5px; color: #a02071; text-shadow: 0px 0px 12px rgba(79, 145, 193, 0.7); }
+#content .thin .torrent_table .group_torrent td:nth-child(3) .site-exclusive:before { content: "\e915"; font-family: uhdbits; font-size: 8px; margin-right: 5px; color: #4f91c1; text-shadow: 0px 0px 12px rgba(79, 145, 193, 0.7); }
 #content .thin .torrent_table .group_torrent .nobr span { float: none; }
 #content .thin .no_grouping tbody .torrent { border: none; }
 #content .thin .no_grouping tbody .torrent .center.cats_col { padding-left: 17px; }
