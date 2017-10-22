@@ -1183,7 +1183,7 @@ body#upload #content .thin > p input { margin-top: 10px; margin-bottom: 10px; bo
 #content .thin .no_grouping tbody tr .center.cats_col a:hover { text-decoration: none; }
 #content .thin .main_column .box { background: #38393b; background: -moz-linear-gradient(top, #38393b 0%, #2e3645 100%); background: -webkit-linear-gradient(top, #38393b 0%, #2e3645 100%); background: linear-gradient(to bottom, #38393b 0%, #2e3645 100%); }
 #content .thin .main_column .box .body { background: #38393b; background: -moz-linear-gradient(top, #38393b 0%, #2e3645 100%); background: -webkit-linear-gradient(top, #38393b 0%, #2e3645 100%); background: linear-gradient(to bottom, #38393b 0%, #2e3645 100%); position: relative; overflow: hidden; z-index: 1; padding: 0; }
-#content .thin .main_column .box .body .tmdb_splash { position: absolute; z-index: -1; opacity: 0.3; }
+#content .thin .main_column .box .body .tmdb_splash { position: absolute; z-index: -1; opacity: 0.5; }
 #content .thin .main_column .box .body .tmdb_splash img { width: 100%; }
 #content .thin .main_column .box .body .imdb_block { padding: 10px; padding: 30px; background: linear-gradient(to bottom, rgba(56, 57, 59, 0.2) 0%, rgba(46, 54, 69, 0.9) 70%); text-shadow: 0 1px 1px black; }
 #content .thin .main_column .box .body .imdb_block .imgbox { margin-right: 20px !important; }
